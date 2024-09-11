@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "c6b06ef70b79605e",
+    "type": "split",
+    "children": [
+      {
+        "id": "b71ec2eda2446b47",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa4c01e44802c3de",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ab0dd081e0671f36",
+    "type": "split",
+    "children": [
+      {
+        "id": "c87d4d059a51ae37",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9bd10e3fd40eca3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "08ac95d415b04ee5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "101b6b18b038cbe6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "d484d3697044ed85",
+    "type": "split",
+    "children": [
+      {
+        "id": "07e238c368b12563",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d51d499f66e4372",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "69e6a790e401b2ae",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "14be41509b05a14b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4787b570142bc0e5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "60d20fce3c43985e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "0b7aa6b76b01ae74",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "random-note:开始漫游笔记": false,
+      "audio-recorder:开始/结束录音": false,
+      "workspaces:管理工作区布局": false,
+      "publish:发布更改": false,
+      "templates:插入模板": false,
+      "media-extended:Open media": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "fa4c01e44802c3de",
+  "lastOpenFiles": [
+    "CS61C-obs/lec 20/20.1  CSR.md",
+    "CS61C-obs/立即数的符号扩展.md",
+    "CS61C-obs/lec 20/20.2  Datapath Control.md",
+    "CS61C-obs/lec 20/20.3  Instruction Timing.md",
+    "CS61C-obs/lec 20/20.4  Control Logic Design.md",
+    "Pasted image 20240911200024.png",
+    "Images/Pasted image 20240911171645.png",
+    "Pasted image 20240911171646.png",
+    "数据结构/LinkList.md",
+    "CS61C-obs/lec 20",
+    "Leetcode/24. swapPairs.md",
+    "Images/屏幕截图 2024-09-10 100516.png",
+    "Images/屏幕截图 2024-09-10 100655.png",
+    "c++ grammar/array.md",
+    "CS61C-obs/lec 19/19.6  U-Types.md",
+    "CS61C-obs/lec 19/19.1  Load.md",
+    "CS61C-obs/load与store指令中的立即数符号扩展.md",
+    "CS61C-obs/lec 19/19.5  JAL.md",
+    "CS61C-obs/lec 19/19.4  JALR.md",
+    "Images/Pasted image 20240909173819.png",
+    "Images/Pasted image 20240909173623.png",
+    "CS61C-obs/lec 19/19.3  Branch.md",
+    "Images/Pasted image 20240909171247.png",
+    "CS61C-obs/lec 19/19.2  Store.md",
+    "Images/Pasted image 20240909170200.png",
+    "Images/Pasted image 20240909162618.png",
+    "CS61C-obs/lec 19",
+    "c++ grammar/细节.md",
+    "c++ grammar/new语句.md",
+    "CS61B_obs/pro/project 1.md",
+    "CS61B_obs/lecture/lec 10/静态类型vs.动态类型.md",
+    "CS61B_obs/lecture/lec 10/方法调用问题.md",
+    "CS61B_obs/lab/lab2-Debug.md",
+    "CS61B_obs/lab/lab-1A.md",
+    "CS61B_obs/问题日志/7.29.md",
+    "Leetcode/3. add two numbers.md",
+    "c++ grammar",
+    "Leetcode/经验.md",
+    "Leetcode/2.Palindrome numbers.md",
+    "CS61B_obs/lecture/lec 10",
+    "CS61B_obs/lecture",
+    "CS61C-obs",
+    "数据结构",
+    "Plan",
+    "Java",
+    "Discrete Maths",
+    "画布示例.canvas"
+  ]
+}
