@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS61C-obs/lec 19/19.3  Branch.md",
+                "file": "Computer Organization/Chapter 2  Instructions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS61C-obs/lec 19/19.3  Branch.md",
+                "file": "Computer Organization/Chapter 2  Instructions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS61C-obs/lec 19/19.3  Branch.md",
+                "file": "Computer Organization/Chapter 2  Instructions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS61C-obs/lec 19/19.3  Branch.md"
+                "file": "Computer Organization/Chapter 2  Instructions.md"
               }
             }
           },
@@ -154,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,11 +178,23 @@
   },
   "active": "6781c239516fd52a",
   "lastOpenFiles": [
-    "CS61C-obs/lec 19/19.2  Store.md",
+    "数据结构/c++ grammar/细节.md",
+    "Computer Organization/Chapter 2  Instructions.md",
+    "Computer Organization",
+    "数据结构/c++ grammar/new语句.md",
+    "数据结构/c++ grammar/array.md",
+    "数据结构/文件输入与输出.md",
+    "数据结构/LinkList.md",
+    "python/02 列表.md",
+    "python/01 变量和数据类型.md",
+    "Tools/Vim.md",
     "CS61C-obs/lec 19/19.1  Load.md",
-    "Git/obsidian将修改同步到GitHub.md",
-    "Git/推送本地文件夹.md",
-    "Git/常识.md",
+    "Tools/obsidian的用法.md",
+    "CS61C-obs/lec 19/19.3  Branch.md",
+    "CS61C-obs/lec 19/19.2  Store.md",
+    "Tools/Git/obsidian将修改同步到GitHub.md",
+    "Tools/Git/推送本地文件夹.md",
+    "Tools/Git/常识.md",
     "CS61C-obs/lec  7.md",
     "CS61C-obs/lec 20/20.4  Control Logic Design.md",
     "CS61C-obs/lec 20/20.3  Instruction Timing.md",
@@ -192,18 +205,7 @@
     "CS61B_obs/pro/project 1.md",
     "CS61B_obs/lecture/lec 10/静态类型vs.动态类型.md",
     "CS61B_obs/lecture/lec 10/方法调用问题.md",
-    "CS61B_obs/Log/7.29.md",
-    "OJ/Leetcode2.Palindrome numbers.md",
-    "OJ/Leetcode1：two sum.md",
-    "CS61C-obs/lec 23/23.2  Control Hazard.md",
-    "CS61C-obs/lec 23/23.1  Load Data Hazard.md",
     "CS61C-obs/lec 23",
-    "OJ/怎样刷题.md",
-    "OJ/Experiences.md",
-    "OJ/Leetcode.143 重排链表.md",
-    "OJ/POJ1208：The Blocks Problem.md",
-    "OJ/Leetcode24. swapPairs.md",
-    "OJ/Leetcode3. add two numbers.md",
     "CS61C-obs/lec 22",
     "Pasted image 20240912173642.png",
     "Pasted image 20240912173446.png",
@@ -217,12 +219,11 @@
     "Images/Pasted image 20240909173623.png",
     "Images/Pasted image 20240909171247.png",
     "CS61C-obs/lec 19",
-    "c++ grammar",
+    "数据结构/c++ grammar",
     "CS61B_obs/lecture/lec 10",
     "CS61B_obs/lecture",
     "CS61C-obs",
     "数据结构",
-    "Plan",
     "画布示例.canvas"
   ]
 }
