@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/obsidian将修改同步到GitHub.md",
+                "file": "CS61C-obs/lec 19/19.3  Branch.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/obsidian将修改同步到GitHub.md",
+                "file": "CS61C-obs/lec 19/19.3  Branch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/obsidian将修改同步到GitHub.md",
+                "file": "CS61C-obs/lec 19/19.3  Branch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/obsidian将修改同步到GitHub.md"
+                "file": "CS61C-obs/lec 19/19.3  Branch.md"
               }
             }
           },
@@ -177,11 +177,12 @@
   },
   "active": "6781c239516fd52a",
   "lastOpenFiles": [
-    "Git/推送本地文件夹.md",
+    "CS61C-obs/lec 19/19.2  Store.md",
+    "CS61C-obs/lec 19/19.1  Load.md",
     "Git/obsidian将修改同步到GitHub.md",
+    "Git/推送本地文件夹.md",
     "Git/常识.md",
     "CS61C-obs/lec  7.md",
-    "CS61C-obs/lec 19/19.2  Store.md",
     "CS61C-obs/lec 20/20.4  Control Logic Design.md",
     "CS61C-obs/lec 20/20.3  Instruction Timing.md",
     "CS61C-obs/lec 20/20.2  Datapath Control.md",
@@ -203,7 +204,6 @@
     "OJ/POJ1208：The Blocks Problem.md",
     "OJ/Leetcode24. swapPairs.md",
     "OJ/Leetcode3. add two numbers.md",
-    "OJ/Quick Review.md",
     "CS61C-obs/lec 22",
     "Pasted image 20240912173642.png",
     "Pasted image 20240912173446.png",
