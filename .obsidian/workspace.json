@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS61C-obs/lec  7.md",
+                "file": "CS61C-obs/lec 19/19.2  Store.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"Plan/\" ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS61C-obs/lec  7.md",
+                "file": "CS61C-obs/lec 19/19.2  Store.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS61C-obs/lec  7.md",
+                "file": "CS61C-obs/lec 19/19.2  Store.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS61C-obs/lec  7.md"
+                "file": "CS61C-obs/lec 19/19.2  Store.md"
               }
             }
           },
@@ -175,8 +175,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6781c239516fd52a",
+  "active": "e9bd10e3fd40eca3",
   "lastOpenFiles": [
+    "CS61C-obs/lec 20/20.4  Control Logic Design.md",
+    "CS61C-obs/lec 20/20.3  Instruction Timing.md",
+    "CS61C-obs/lec 20/20.2  Datapath Control.md",
+    "CS61C-obs/lec 22/22.2  Structural Hazard.md",
+    "CS61C-obs/lec 22/22.3  Data Hazards.md",
+    "CS61C-obs/lec 22/22.4  Data Hazards.md",
+    "CS61C-obs/lec  7.md",
     "CS61B_obs/pro/project 1.md",
     "CS61B_obs/lecture/lec 10/静态类型vs.动态类型.md",
     "CS61B_obs/lecture/lec 10/方法调用问题.md",
@@ -195,16 +202,9 @@
     "OJ/Quick Review.md",
     "OJ/引用传参.md",
     "VS Code.md",
-    "CS61C-obs/lec 22/22.4  Data Hazards.md",
-    "CS61C-obs/lec 22/22.3  Data Hazards.md",
-    "CS61C-obs/lec 22/22.2  Structural Hazard.md",
     "CS61C-obs/lec 22/22.1.md",
     "CS61C-obs/lec 22",
     "CS61B_obs/lecture/lec3 list1,references and recursion.md",
-    "CS61B_obs/lecture/lec4 list2,SLList,Sentinel Node.md",
-    "CS61C-obs/lec 19/19.4  JALR.md",
-    "CS61C-obs/lec 19/19.3  Branch.md",
-    "CS61C-obs/lec 19/19.2  Store.md",
     "Pasted image 20240912173642.png",
     "Pasted image 20240912173446.png",
     "Images/Pasted image 20240911200024.png",
