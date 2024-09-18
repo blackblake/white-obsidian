@@ -112,7 +112,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -170,7 +170,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6e3b2e1d1d3324b6",
+  "active": "0b7aa6b76b01ae74",
   "lastOpenFiles": [
     "OJ/Leetcode2.Palindrome numbers.md",
     "OJ/Leetcode1：two sum.md",
