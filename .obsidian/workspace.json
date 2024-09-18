@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f92bc5c6ff17eff6",
+        "id": "96b10d71e5fcb593",
         "type": "tabs",
         "children": [
           {
-            "id": "41eaff113a495e07",
+            "id": "6781c239516fd52a",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "CS61B_obs",
-                "staged": false
+                "file": "CS61C-obs/lec  7.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CS61C-obs/lec  7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CS61C-obs/lec  7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CS61C-obs/lec  7.md"
+              }
             }
           },
           {
@@ -170,7 +175,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "41eaff113a495e07",
+  "active": "6781c239516fd52a",
   "lastOpenFiles": [
     "CS61B_obs/pro/project 1.md",
     "CS61B_obs/lecture/lec 10/静态类型vs.动态类型.md",
