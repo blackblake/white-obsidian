@@ -20,3 +20,7 @@
 ![[Pasted image 20240821221640.png]]
 这是因为进程占用，上一次的调试/运行尚未关闭就开始下一次导致的，所以在上方关闭当前进程：
 ![[Pasted image 20240821221757.png]]
+
+
+> [!NOTE] 如何实现调试时输入？
+> 只需把launch.json的"externalConsole“设置为true即可
