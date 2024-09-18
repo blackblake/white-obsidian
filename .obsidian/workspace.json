@@ -4,18 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "815a91446e5793d2",
+        "id": "f92bc5c6ff17eff6",
         "type": "tabs",
         "children": [
           {
-            "id": "6e3b2e1d1d3324b6",
+            "id": "41eaff113a495e07",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "Leetcode/2.Palindrome numbers.md",
-                "staged": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -170,7 +167,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0b7aa6b76b01ae74",
+  "active": "41eaff113a495e07",
   "lastOpenFiles": [
     "OJ/Leetcode2.Palindrome numbers.md",
     "OJ/Leetcode1：two sum.md",
