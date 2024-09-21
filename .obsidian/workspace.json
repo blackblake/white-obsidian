@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法题/HW2 归并排序.md",
+                "file": "算法题/HW2 约瑟夫环.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法题/HW2 归并排序.md",
+                "file": "算法题/HW2 约瑟夫环.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法题/HW2 归并排序.md",
+                "file": "算法题/HW2 约瑟夫环.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法题/HW2 归并排序.md"
+                "file": "算法题/HW2 约瑟夫环.md"
               }
             }
           },
@@ -178,13 +178,15 @@
   },
   "active": "6781c239516fd52a",
   "lastOpenFiles": [
-    "算法题/HW2 顺序表元素划分.md",
     "算法题/HW2 归并排序.md",
+    "算法题/HW2 约瑟夫环.md",
+    "算法题/HW2 顺序表元素划分.md",
+    "算法题/Leetcode.143 重排链表.md",
+    "Tools/DevC++.md",
     "算法题/HDU 1412 集合并集运算.md",
     "算法题/Experiences.md",
     "Images/Pasted image 20240919171358.png",
     "Tools/Vim.md",
-    "Tools/DevC++.md",
     "Tools/VS Code.md",
     "Computer Organization/Chapter 2  Instructions.md",
     "数据结构/c++ grammar/细节.md",
@@ -204,8 +206,6 @@
     "Tools/Git/常识.md",
     "CS61C-obs/lec  7.md",
     "CS61C-obs/lec 20/20.4  Control Logic Design.md",
-    "CS61C-obs/lec 20/20.3  Instruction Timing.md",
-    "CS61C-obs/lec 20/20.2  Datapath Control.md",
     "CS61C-obs/lec 23",
     "CS61C-obs/lec 22",
     "Pasted image 20240912173642.png",
