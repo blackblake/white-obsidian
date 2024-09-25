@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法题/HW2 约瑟夫环.md",
+                "file": "算法题/POJ 1363 Trail Problem.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法题/HW2 约瑟夫环.md",
+                "file": "算法题/POJ 1363 Trail Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法题/HW2 约瑟夫环.md",
+                "file": "算法题/POJ 1363 Trail Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法题/HW2 约瑟夫环.md"
+                "file": "算法题/POJ 1363 Trail Problem.md"
               }
             }
           },
@@ -178,8 +178,16 @@
   },
   "active": "6781c239516fd52a",
   "lastOpenFiles": [
-    "算法题/HW2 归并排序.md",
+    "Pasted image 20240926003926.png",
+    "Images/Pasted image 20240925230322.png",
+    "Images/Pasted image 20240921195419.png",
+    "算法题/POJ 1363 Trail Problem.md",
+    "CS61C-obs/lec 19/19.1  Load.md",
+    "Computer Organization/Chapter 1 Intro.md",
+    "Computer Organization/Chapter 2  Instructions.md",
     "算法题/HW2 约瑟夫环.md",
+    "Pasted image 20240921195344.png",
+    "算法题/HW2 归并排序.md",
     "算法题/HW2 顺序表元素划分.md",
     "算法题/Leetcode.143 重排链表.md",
     "Tools/DevC++.md",
@@ -188,7 +196,6 @@
     "Images/Pasted image 20240919171358.png",
     "Tools/Vim.md",
     "Tools/VS Code.md",
-    "Computer Organization/Chapter 2  Instructions.md",
     "数据结构/c++ grammar/细节.md",
     "Computer Organization",
     "数据结构/c++ grammar/new语句.md",
@@ -197,15 +204,11 @@
     "数据结构/LinkList.md",
     "python/02 列表.md",
     "python/01 变量和数据类型.md",
-    "CS61C-obs/lec 19/19.1  Load.md",
     "Tools/obsidian的用法.md",
     "CS61C-obs/lec 19/19.3  Branch.md",
     "CS61C-obs/lec 19/19.2  Store.md",
     "Tools/Git/obsidian将修改同步到GitHub.md",
     "Tools/Git/推送本地文件夹.md",
-    "Tools/Git/常识.md",
-    "CS61C-obs/lec  7.md",
-    "CS61C-obs/lec 20/20.4  Control Logic Design.md",
     "CS61C-obs/lec 23",
     "CS61C-obs/lec 22",
     "Pasted image 20240912173642.png",
@@ -215,9 +218,6 @@
     "Pasted image 20240911171646.png",
     "CS61C-obs/lec 20",
     "Images/屏幕截图 2024-09-10 100516.png",
-    "Images/屏幕截图 2024-09-10 100655.png",
-    "Images/Pasted image 20240909173819.png",
-    "Images/Pasted image 20240909173623.png",
     "CS61C-obs/lec 19",
     "数据结构/c++ grammar",
     "CS61B_obs/lecture/lec 10",

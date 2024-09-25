@@ -70,6 +70,8 @@ LinkNode* Joseph(LinkNode* &head,int N){
 }
 ```
 
+![[Pasted image 20240921195419.png]]
+
 这个实现的缺点就是当输入好几个N的时候，运行时间太长了
 
 ---
