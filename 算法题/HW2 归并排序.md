@@ -126,7 +126,7 @@ LinkNode* merge(LinkNode* left, LinkNode* right) {
 LinkNode* listSort(LinkNode* head) {
 
     // 如果链表为空或只有一个节点，直接返回
-    // 这一句必须加上！！
+    // 这一句必须加上！！因为当递推到只有一个结点的时候，这句话就是终止条件！
    if (!head || !head->next) return head;
 
   
@@ -216,3 +216,6 @@ if (!head || !head->next) return head;
 -  **一定不能忘记断开链表，不然会导致运行时错误!** 
 	
 - **反复学习listSort( )函数的思想，很重要！**  
+	
+- **关于递推算法** [How to write recursion](obsidian://open?vault=Obsidian%20Vault&file=%E7%AE%97%E6%B3%95%E9%A2%98%2F%E6%80%8E%E6%A0%B7%E5%86%99%E9%80%92%E5%BD%92%E7%AE%97%E6%B3%95)
+ 
