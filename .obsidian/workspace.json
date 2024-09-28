@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法题/怎样写递归算法.md",
+                "file": "算法题/HDU 1276.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法题/怎样写递归算法.md",
+                "file": "算法题/HDU 1276.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法题/怎样写递归算法.md",
+                "file": "算法题/HDU 1276.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法题/怎样写递归算法.md"
+                "file": "算法题/HDU 1276.md"
               }
             }
           },
@@ -178,16 +178,24 @@
   },
   "active": "6781c239516fd52a",
   "lastOpenFiles": [
-    "991dbb82935a3d3f4e94b728730adfe.jpg",
-    "算法题/HW2 归并排序.md",
-    "算法题/怎样写递归算法.md",
-    "算法题/Experiences.md",
-    "算法题/HW2 约瑟夫环.md",
-    "算法题/Leetcode.143 重排链表.md",
-    "算法题/Leetcode2.Palindrome numbers.md",
-    "算法题/Leetcode24. swapPairs.md",
+    "Plan/考研信息.md",
+    "算法题/HDU 1276.md",
+    "Plan/绩点.md",
+    "数据结构/树.md",
     "算法题/POJ1208：The Blocks Problem.md",
     "算法题/POJ 1363 Trail Problem.md",
+    "算法题/Leetcode24. swapPairs.md",
+    "算法题/Leetcode3. add two numbers.md",
+    "算法题/Leetcode2.Palindrome numbers.md",
+    "算法题/Leetcode1：two sum.md",
+    "算法题/Leetcode.143 重排链表.md",
+    "算法题/HW2 约瑟夫环.md",
+    "算法题/HW2 顺序表元素划分.md",
+    "算法题/HW2 归并排序.md",
+    "算法题/HDU 1412 集合并集运算.md",
+    "算法题/怎样写递归算法.md",
+    "991dbb82935a3d3f4e94b728730adfe.jpg",
+    "算法题/Experiences.md",
     "Pasted image 20240926003926.png",
     "Images/Pasted image 20240925230322.png",
     "Images/Pasted image 20240921195419.png",
@@ -195,9 +203,7 @@
     "Computer Organization/Chapter 1 Intro.md",
     "Computer Organization/Chapter 2  Instructions.md",
     "Pasted image 20240921195344.png",
-    "算法题/HW2 顺序表元素划分.md",
     "Tools/DevC++.md",
-    "算法题/HDU 1412 集合并集运算.md",
     "Images/Pasted image 20240919171358.png",
     "Tools/Vim.md",
     "Tools/VS Code.md",
@@ -205,18 +211,12 @@
     "Computer Organization",
     "数据结构/c++ grammar/new语句.md",
     "数据结构/c++ grammar/array.md",
-    "数据结构/文件输入与输出.md",
-    "数据结构/LinkList.md",
-    "python/02 列表.md",
-    "python/01 变量和数据类型.md",
-    "Tools/obsidian的用法.md",
     "CS61C-obs/lec 23",
     "CS61C-obs/lec 22",
     "Pasted image 20240912173642.png",
     "Pasted image 20240912173446.png",
     "Images/Pasted image 20240911200024.png",
     "Images/Pasted image 20240911171645.png",
-    "Pasted image 20240911171646.png",
     "CS61C-obs/lec 20",
     "CS61C-obs/lec 19",
     "数据结构/c++ grammar",
