@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "96b10d71e5fcb593",
+        "id": "4b2a676453db3985",
         "type": "tabs",
         "children": [
           {
-            "id": "6781c239516fd52a",
+            "id": "d110d4f8e0fdffdf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法题/HDU 1276.md",
+                "file": "算法题/LeetCode150 Evaluate Reverse Polish Notation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法题/HDU 1276.md",
+                "file": "算法题/LeetCode150 Evaluate Reverse Polish Notation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法题/HDU 1276.md",
+                "file": "算法题/LeetCode150 Evaluate Reverse Polish Notation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法题/HDU 1276.md"
+                "file": "算法题/LeetCode150 Evaluate Reverse Polish Notation.md"
               }
             }
           },
@@ -159,71 +159,71 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "zk-prefixer:创建时间戳笔记": false,
-      "random-note:开始漫游笔记": false,
-      "audio-recorder:开始/结束录音": false,
-      "workspaces:管理工作区布局": false,
-      "publish:发布更改": false,
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
       "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "markdown-importer:開啟 Markdown 格式轉換器": false,
+      "zk-prefixer:建立新唯一筆記": false,
+      "random-note:開始漫遊筆記": false,
+      "audio-recorder:開始/停止錄音": false,
+      "workspaces:管理工作區配置": false,
+      "publish:發佈變動內容": false,
       "media-extended:Open media": false,
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6781c239516fd52a",
+  "active": "d110d4f8e0fdffdf",
   "lastOpenFiles": [
-    "Plan/考研信息.md",
-    "算法题/HDU 1276.md",
-    "Plan/绩点.md",
-    "数据结构/树.md",
-    "算法题/POJ1208：The Blocks Problem.md",
-    "算法题/POJ 1363 Trail Problem.md",
-    "算法题/Leetcode24. swapPairs.md",
-    "算法题/Leetcode3. add two numbers.md",
     "算法题/Leetcode2.Palindrome numbers.md",
     "算法题/Leetcode1：two sum.md",
     "算法题/Leetcode.143 重排链表.md",
-    "算法题/HW2 约瑟夫环.md",
-    "算法题/HW2 顺序表元素划分.md",
-    "算法题/HW2 归并排序.md",
-    "算法题/HDU 1412 集合并集运算.md",
-    "算法题/怎样写递归算法.md",
+    "算法题/LeetCode150 Evaluate Reverse Polish Notation.md",
+    "算法题/HW3 逆波兰表达式.md",
+    "算法题/POJ 1363 Trail Problem.md",
+    "未命名.md",
+    "Computer Organization/C to RISC-V.md",
+    "CS61C-obs/Instruction-Types.md",
+    "CS61C-obs/lec  7.md",
+    "CS61C-obs/lec  8.md",
+    "CS61C-obs/Sign-Extension.md",
+    "Images/Pasted image 20241005112213.png",
+    "Computer Organization/Chapter 1 Intro.md",
+    "Computer Organization/Chapter 2  Instructions.md",
+    "Data Structure/LinkList.md",
+    "Images/Pasted image 20240928195654.png",
+    "算法题/HDU 5818.md",
+    "Java/Chap3  Fundamental Programming Structures.md",
+    "Java",
+    "CS61C-obs/lec 19/19.4  JALR.md",
+    "CS61C-obs/lec 20/20.3  Instruction Timing.md",
+    "CS61C-obs/lec 20/20.2  Datapath Control.md",
+    "CS61C-obs/lec 20/20.1  CSR.md",
+    "CS61C-obs/lec 19/19.5  JAL.md",
+    "CS61C-obs/lec 19/19.6  U-Types.md",
+    "CS61C-obs/load与store指令中的立即数符号扩展.md",
+    "CS61C-obs/lec 19/19.3  Branch.md",
+    "CS61C-obs/lec 19/19.2  Store.md",
     "991dbb82935a3d3f4e94b728730adfe.jpg",
-    "算法题/Experiences.md",
     "Pasted image 20240926003926.png",
     "Images/Pasted image 20240925230322.png",
     "Images/Pasted image 20240921195419.png",
-    "CS61C-obs/lec 19/19.1  Load.md",
-    "Computer Organization/Chapter 1 Intro.md",
-    "Computer Organization/Chapter 2  Instructions.md",
     "Pasted image 20240921195344.png",
-    "Tools/DevC++.md",
     "Images/Pasted image 20240919171358.png",
-    "Tools/Vim.md",
-    "Tools/VS Code.md",
-    "数据结构/c++ grammar/细节.md",
     "Computer Organization",
-    "数据结构/c++ grammar/new语句.md",
-    "数据结构/c++ grammar/array.md",
     "CS61C-obs/lec 23",
     "CS61C-obs/lec 22",
     "Pasted image 20240912173642.png",
     "Pasted image 20240912173446.png",
-    "Images/Pasted image 20240911200024.png",
-    "Images/Pasted image 20240911171645.png",
     "CS61C-obs/lec 20",
     "CS61C-obs/lec 19",
-    "数据结构/c++ grammar",
+    "Data Structure/c++ grammar",
     "CS61B_obs/lecture/lec 10",
     "CS61B_obs/lecture",
     "CS61C-obs",
-    "数据结构",
     "画布示例.canvas"
   ]
 }

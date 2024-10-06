@@ -111,3 +111,37 @@ int main(){
     return 0;}
 ```
 
+---
+6. **关于stack结构体的gettop( )函数** 
+
+```cpp
+char gettop(){
+        if(top != -1){
+            return data[top];
+        } 
+    }
+```
+
+如果只写出了"top!=-1"，即栈不为空的情况的处理方法，而不处理top\==-1，即栈空的方法，就会导致可能返回一个异常，所以应该添加为：
+
+```cpp
+char gettop(){
+        if(top != -1){
+            return data[top];
+        } 
+        
+        else {
+            return '\0'; // 当栈为空时返回空字符
+        }
+    }
+```
+
+---
+7. **Vector的含参初始化与push_back( )不可同用
+
+**`vector<char> vec1(N);` 与 `push_back` 的冲突**： 你初始化了一个大小为 `N` 的向量 `vec1` 和 `vec2`，但在之后使用 `push_back` 往 `vec1` 里添加元素时，`vec1` 的大小会超出预期。因为 `push_back` 是在已有的向量大小基础上添加元素，而不是直接替换现有元素。因此，应该直接通过下标赋值，而不是 `push_back`。
+
+---
+8. **异常处理**
+
+**主循环中的 `while(stk.gettop()!=e)` 死循环**： 如果 `vec1` 中的所有元素都不等于 `vec2` 的某个 `e`，程序会进入死循环，因为 `gettop()` 始终不会等于 `e`。你应该检查是否 `j` 已经越界，即没有更多元素可以被推入栈中。
