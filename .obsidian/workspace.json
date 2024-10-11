@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法题/HDU4939 扔钉子.md",
+                "file": "算法题/Leetcode.143 重排链表.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法题/HDU4939 扔钉子.md",
+                "file": "算法题/Leetcode.143 重排链表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法题/HDU4939 扔钉子.md",
+                "file": "算法题/Leetcode.143 重排链表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法题/HDU4939 扔钉子.md"
+                "file": "算法题/Leetcode.143 重排链表.md"
               }
             }
           },
@@ -178,8 +178,14 @@
   },
   "active": "d110d4f8e0fdffdf",
   "lastOpenFiles": [
-    "算法题/POJ2259 团队队列.md",
+    "算法题/Leetcode.143 重排链表.md",
+    "Pasted image 20241011175046.png",
+    "Pasted image 20241011174942.png",
+    "Pasted image 20241011174917.png",
     "算法题/HDU4939 扔钉子.md",
+    "离散数学/Chap4 集合.md",
+    "离散数学",
+    "算法题/POJ2259 团队队列.md",
     "Pasted image 20241009214401.png",
     "Pasted image 20241009214359.png",
     "算法题/怎样刷题.md",
@@ -192,7 +198,6 @@
     "算法题/HW2 顺序表元素划分.md",
     "算法题/HW2 约瑟夫环.md",
     "算法题/HW3 逆波兰表达式.md",
-    "算法题/Leetcode.143 重排链表.md",
     "算法题/Leetcode24. swapPairs.md",
     "算法题/LeetCode150 Evaluate Reverse Polish Notation.md",
     "算法题/POJ 1363 Trail Problem.md",
@@ -204,17 +209,12 @@
     "算法题/Leetcode1：two sum.md",
     "未命名.md",
     "Computer Organization/C to RISC-V.md",
-    "CS61C-obs/Instruction-Types.md",
-    "CS61C-obs/lec  7.md",
     "Images/Pasted image 20241005112213.png",
     "Images/Pasted image 20240928195654.png",
     "Java",
     "991dbb82935a3d3f4e94b728730adfe.jpg",
     "Pasted image 20240926003926.png",
     "Images/Pasted image 20240925230322.png",
-    "Images/Pasted image 20240921195419.png",
-    "Pasted image 20240921195344.png",
-    "Images/Pasted image 20240919171358.png",
     "Computer Organization",
     "CS61C-obs/lec 23",
     "CS61C-obs/lec 22",
@@ -223,7 +223,6 @@
     "Data Structure/c++ grammar",
     "CS61B_obs/lecture/lec 10",
     "CS61B_obs/lecture",
-    "CS61C-obs",
     "画布示例.canvas"
   ]
 }

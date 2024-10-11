@@ -1,133 +1,89 @@
+
+## 官方题解
+
+---
+[讲解视频](https://www.bilibili.com/video/BV1KG4y1G7cu/?vd_source=0d49e59abf4b8220ef3a25c5822e3a13)
+
 ```cpp
-#include <iostream>
-#include <vector>
-using namespace std;
+class Solution {
+    // 876. 链表的中间结点
+    ListNode *middleNode(ListNode *head) {
+        ListNode *slow = head, *fast = head;
+        while (fast && fast->next) {
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        return slow;
+    }
 
-  struct ListNode {
-      int val;
-      int addr;
-      int nextAdd;
-      ListNode *next;
+    // 206. 反转链表
+    ListNode *reverseList(ListNode *head) {
+        ListNode *pre = nullptr, *cur = head;
+        while (cur) {
+            ListNode *nxt = cur->next;
+            cur->next = pre;
+            pre = cur;
+            cur = nxt;
+        }
+        return pre;
+    }
 
-      ListNode() : addr(0),nextAdd(0),val(0), next(nullptr) {}
-      ListNode(int x,int y) : addr(y),nextAdd(0),val(x), next(nullptr) {}
-      ListNode(int x,int y,int z) : addr(y),nextAdd(z),val(x), next(nullptr) {}
-      ListNode(int x,int y,int z, ListNode *next) : addr(y),nextAdd(z),val(x), next(next) {}
-
-  };
-
-  
-struct List
-    {
-        ListNode* head;
-        int n;//总结点数
-
-        List(){
-            head=new ListNode();
-        }
-
-        void printList(){
-            ListNode* pointer=head;
-            while (pointer!=nullptr)
-            {
-                cout<<pointer->val<<" ";
-                pointer=pointer->next;
-            }
-            cout<<endl;
-        }
-
-    //重排算法
- void reorderList() {
-    
-    if (!head || !head->next) return; // 边界条件
-
-    int move = n/2;  // 需要被插入的结点数
-    int unmove = n - move; // 前面的结点数
-
-
-    //beforeRear:倒数第二个结点的指针
-    ListNode* beforeRear = head;
-    while (beforeRear->next->next!=nullptr) {
-        beforeRear = beforeRear->next;
-    }
-
-    //rear:尾结点指针
-    ListNode* rear=beforeRear->next;
-
-    //front:始终指向尾结点要插入的位置的前一个结点的指针
-    ListNode* front=head;
-
-    int cnt=0;
-    //一共有move个要插入的结点，故插入move次
-    while(cnt!=move){
-        beforeRear->next=nullptr;
-        rear->next=front->next;
-        front->next=rear;
-
-        beforeRear = head;
-        while (beforeRear->next->next!=nullptr) {
-            beforeRear = beforeRear->next;
-        }
-
-        rear=beforeRear->next;
-        front=front->next->next;
-        cnt++;
-    }
-  
-  }
+public:
+	//合并head和head2链表
+    void reorderList(ListNode *head) {
+        ListNode *mid = middleNode(head);
+        ListNode *head2 = reverseList(mid);
+        while (head2->next) {
+            ListNode *nxt = head->next;
+            ListNode *nxt2 = head2->next;
+            head->next = head2;
+            head2->next = nxt;
+            head = nxt;
+            head2 = nxt2;
+        }
+    }
 };
 
-
-int main(){
-
-    List l;
-    int add,num;//第一行输入首届点地址、总结点数
-    cin>>add>>num;
-
-    l.n=num;
-
-	//用vector存储结点，待全部存好后再连接
-    vector<ListNode*> listVec(num);//注意一定要写这个参数"(num)"！！
-
-    for(int i=0;i<num;i++){
-        int x,y,z;
-        cin>>y>>x>>z;
-		
-		//为当前输入的数据创建一个结点，x、y、z分别对应结点的val、addr、nextAdd
-        ListNode* p=new ListNode(x,y,z);
-        //然后把指向所创建结点的指针存到vector里作为第i个元素
-        listVec[i]=p;
-	  
-	  //如果遇到了首结点，就把其连接到head后面
-        if(y==add){
-            l.head->next=p;
-        }
-    }  
-    
-
-    for(int i=0;i<num;i++){
-       //如果nextAdd是-1，说明是尾结点
-        if(listVec[i]->nextAdd==-1){
-            listVec[i]->next=nullptr;
-        }
-        
-        //连接各结点
-        for(int j=0;j<num;j++){
-            if(listVec[j]->addr==listVec[i]->nextAdd){
-                listVec[i]->next=listVec[j];
-            }
-        }
-    }
-  
-    l.reorderList();
-    
-    l.printList();
-
-    return 0;
-
-}
 ```
 
+## 主要内容
+---
+#### (1)快慢指针法找中间节点
+
+```cpp
+		ListNode* slow=head;
+        ListNode* fast=head;
+
+        while(fast&&fast->next){
+
+            slow=slow->next;
+            fast=fast->next->next;
+
+        }//结束后slow指向中间节点
+```
+
+#### (2)反转链表
+
+```cpp
+ListNode* reverseList(ListNode* head) {
+        ListNode* prev = nullptr;
+        ListNode* curr = head;
+        while (curr) {
+            ListNode* next = curr->next;//保存next
+            
+            curr->next = prev;//这一句是主要操作,其他3句是准备工作
+            //prev的值在上一轮循环确定,是上一轮的"curr"
+            
+            prev = curr;//更新prev
+            curr = next;//更新curr
+        }
+        return prev;
+    }
+
+```
+
+## 经验
+---
 
 > [!NOTE] 经验
 > 1. 一定要在开始写代码之前构思好，画好示意图。别一想到可行的方法就写。要想想，有没有更好写、更容易实现的（即使时间复杂度高也没关系）
