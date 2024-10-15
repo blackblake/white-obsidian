@@ -16,4 +16,4 @@ public class FirstSample
 
 - 命名规则：类名的每个单词首字母都要大写
 	
--  源代码的文件名必须与public类的类名相同
+-  源代码的文件名必须与public类的类名相同 

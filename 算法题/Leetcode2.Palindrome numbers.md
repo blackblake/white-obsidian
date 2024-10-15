@@ -1,4 +1,4 @@
-1. #to_string converting int to string
+1. **to_string** converting int to string
 
 ```cpp
 #include <string> //remember to include the <string> headfile!
@@ -7,7 +7,7 @@ using namespace std;
 string s = to_string(42);
 ```
 
-  #stoi convert string to int
+  \#stoi convert string to int
 ```cpp
 std::stoi( str )
 ```
