@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Chap3  Fundamental Programming Structures.md",
+                "file": "算法题/HDU 1497 图书馆管理系统.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#to_string",
+                "query": "greater",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Chap3  Fundamental Programming Structures.md",
+                "file": "算法题/HDU 1497 图书馆管理系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Chap3  Fundamental Programming Structures.md",
+                "file": "算法题/HDU 1497 图书馆管理系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Chap3  Fundamental Programming Structures.md"
+                "file": "算法题/HDU 1497 图书馆管理系统.md"
               }
             }
           },
@@ -154,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,9 +176,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e9bd10e3fd40eca3",
+  "active": "d110d4f8e0fdffdf",
   "lastOpenFiles": [
+    "算法题/HDU 1276 新兵队列.md",
+    "算法题/HDU 1412 集合并集运算.md",
+    "算法题/HDU 1497 图书馆管理系统.md",
+    "算法题/Lab 1-2  判断数学表达式是否等效.md",
+    "算法题/POJ1208 The Blocks Problem.md",
+    "算法题/LeetCode150 计算后缀表达式值.md",
+    "算法题/Leetcode24. swapPairs.md",
+    "算法题/Leetcode1：two sum.md",
+    "算法题/Leetcode.143 重排链表.md",
+    "算法题/HW2 顺序表元素划分.md",
+    "算法题/HDU 5818 栈合并操作.md",
+    "算法题/HDU 4939 扔钉子.md",
     "Computer Organization/Chapter 3 Algorithm.md",
+    "Computer Organization/Chapter 2  Instructions.md",
+    "Java/Chap3  Fundamental Programming Structures.md",
     "Images/Pasted image 20241015221155.png",
     "Images/Pasted image 20241015221111.png",
     "算法题/Leetcode2.Palindrome numbers.md",
@@ -189,32 +204,19 @@
     "Images/Pasted image 20241015202459.png",
     "Pasted image 20241015202130.png",
     "Images/Pasted image 20241015201623.png",
-    "Computer Organization/Chapter 2  Instructions.md",
     "Computer Organization/未命名",
     "Computer Organization/Chapter 1 Intro.md",
-    "算法题/HDU 5818 栈合并操作.md",
     "算法题/HW2 归并排序.md",
-    "算法题/HW2 顺序表元素划分.md",
     "算法题/HW2 约瑟夫环.md",
     "算法题/HW3 逆波兰表达式.md",
     "算法题/Lab 1-1 二维表的大于连接.md",
-    "算法题/Lab 1-2  判断数学表达式是否等效.md",
-    "算法题/LeetCode150 计算后缀表达式值.md",
     "Data Structure/树.md",
     "CS61C-obs/lec 7/lec08  Load,Store and Branch.md",
     "CS61C-obs/Sign-Extension.md",
     "CS61C-obs/Instruction-Types.md",
     "CS61C-obs/lec 7/lec7  RISC-V Intro.md",
-    "CS61C-obs/lec 19/19.1  Load.md",
-    "CS61C-obs/lec  7.md",
     "CS61C-obs/lec 7",
-    "CS61C-obs/lec 19/19.2  Store.md",
-    "算法题/Leetcode24. swapPairs.md",
-    "算法题/POJ1208 The Blocks Problem.md",
-    "算法题/POJ1363 Trail Problem.md",
-    "算法题/POJ2259 团队队列.md",
     "作业",
-    "算法题/HDU 4939 扔钉子.md",
     "离散数学",
     "Java",
     "Computer Organization",
