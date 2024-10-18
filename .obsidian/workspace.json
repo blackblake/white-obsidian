@@ -13,13 +13,42 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法题/HDU 1497 图书馆管理系统.md",
+                "file": "Computer Organization/Chapter 3 Algorithm.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 3 Algorithm"
+            }
+          },
+          {
+            "id": "1c766b0d814670ef",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.4"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.4"
+            }
+          },
+          {
+            "id": "c9fb564bdf74c512",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Organization/Chapter 3 Algorithm.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 3 Algorithm"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -39,7 +68,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "檔案瀏覽器"
             }
           },
           {
@@ -54,7 +85,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜尋"
             }
           },
           {
@@ -62,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "書籤"
             }
           }
         ]
@@ -85,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法题/HDU 1497 图书馆管理系统.md",
+                "file": "Computer Organization/Chapter 3 Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +128,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Chapter 3 Algorithm 的反向連結"
             }
           },
           {
@@ -102,10 +139,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法题/HDU 1497 图书馆管理系统.md",
+                "file": "Computer Organization/Chapter 3 Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Chapter 3 Algorithm 的對外連結"
             }
           },
           {
@@ -116,7 +155,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": false
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "標籤"
             }
           },
           {
@@ -125,8 +166,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法题/HDU 1497 图书馆管理系统.md"
-              }
+                "file": "Computer Organization/Chapter 3 Algorithm.md"
+              },
+              "icon": "lucide-list",
+              "title": "Chapter 3 Algorithm 的大綱"
             }
           },
           {
@@ -138,7 +181,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "所有屬性"
             }
           },
           {
@@ -146,7 +191,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -176,11 +223,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d110d4f8e0fdffdf",
+  "active": "e9bd10e3fd40eca3",
   "lastOpenFiles": [
+    "Images/Pasted image 20241018220602.png",
+    "Images/Pasted image 20241018220330.png",
+    "Images/Pasted image 20241018215716.png",
+    "未命名.md",
+    "Computer Organization/Chapter 3 Algorithm.md",
+    "Java/Chap3  Fundamental Programming Structures.md",
+    "Computer Organization/Chapter 2  Instructions.md",
+    "Images/Pasted image 20241018145713.png",
+    "算法题/HDU 1497 图书馆管理系统.md",
     "算法题/HDU 1276 新兵队列.md",
     "算法题/HDU 1412 集合并集运算.md",
-    "算法题/HDU 1497 图书馆管理系统.md",
     "算法题/Lab 1-2  判断数学表达式是否等效.md",
     "算法题/POJ1208 The Blocks Problem.md",
     "算法题/LeetCode150 计算后缀表达式值.md",
@@ -190,9 +245,6 @@
     "算法题/HW2 顺序表元素划分.md",
     "算法题/HDU 5818 栈合并操作.md",
     "算法题/HDU 4939 扔钉子.md",
-    "Computer Organization/Chapter 3 Algorithm.md",
-    "Computer Organization/Chapter 2  Instructions.md",
-    "Java/Chap3  Fundamental Programming Structures.md",
     "Images/Pasted image 20241015221155.png",
     "Images/Pasted image 20241015221111.png",
     "算法题/Leetcode2.Palindrome numbers.md",
@@ -201,9 +253,6 @@
     "Images/Pasted image 20241015205648.png",
     "Images/Pasted image 20241015205402.png",
     "Images/Pasted image 20241015204216.png",
-    "Images/Pasted image 20241015202459.png",
-    "Pasted image 20241015202130.png",
-    "Images/Pasted image 20241015201623.png",
     "Computer Organization/未命名",
     "Computer Organization/Chapter 1 Intro.md",
     "算法题/HW2 归并排序.md",
@@ -213,8 +262,6 @@
     "Data Structure/树.md",
     "CS61C-obs/lec 7/lec08  Load,Store and Branch.md",
     "CS61C-obs/Sign-Extension.md",
-    "CS61C-obs/Instruction-Types.md",
-    "CS61C-obs/lec 7/lec7  RISC-V Intro.md",
     "CS61C-obs/lec 7",
     "作业",
     "离散数学",
