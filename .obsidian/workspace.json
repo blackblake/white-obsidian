@@ -11,10 +11,14 @@
             "id": "4cf59a0f669a58bd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Computer Organization/Chap4  Processor.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新分頁"
+              "title": "Chap4  Processor"
             }
           }
         ]
@@ -135,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Organization/Chapter 3 Algorithm.md"
+                "file": "Computer Organization/Chap4  Processor.md"
               },
               "icon": "lucide-list",
-              "title": "Chapter 3 Algorithm 的大綱"
+              "title": "Chap4  Processor 的大綱"
             }
           },
           {
@@ -170,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,6 +197,25 @@
   },
   "active": "4cf59a0f669a58bd",
   "lastOpenFiles": [
+    "Computer Organization/Chap3 Algorithm.md",
+    "Computer Organization/Chap4  Processor.md",
+    "Images/Pasted image 20241023214659.png",
+    "Images/Pasted image 20241023211319.png",
+    "Pasted image 20241023211104.png",
+    "Images/Pasted image 20241023210922.png",
+    "Computer Organization/Chap2  Instructions.md",
+    "Computer Organization/Chap1 Intro.md",
+    "Computer Organization/C to RISC-V.md",
+    "Images/Pasted image 20241023194028.png",
+    "Images/Pasted image 20241023193650.png",
+    "Images/Pasted image 20241023192850.png",
+    "Images/Pasted image 20241023192147.png",
+    "Pasted image 20241023192816.png",
+    "Images/Pasted image 20241023190419.png",
+    "Tools/Git/推送本地文件夹.md",
+    "Tools/Git/obsidian将修改同步到GitHub.md",
+    "Tools/Git/克隆别人的存储库.md",
+    "Tools/Git/常识.md",
     "Plan/考研信息.md",
     "Plan/绩点.md",
     "Coding/HW3 逆波兰表达式.md",
@@ -210,26 +232,6 @@
     "Data Structure/c++/Infile and Outfile.md",
     "Data Structure/Tree.md",
     "Data Structure/c++/new.md",
-    "Data Structure/c++/array.md",
-    "Data Structure/LinkList.md",
-    "Data Structure/c++ grammar/细节.md",
-    "Images/991dbb82935a3d3f4e94b728730adfe.jpg",
-    "Images/屏幕截图 2024-09-10 100516.png",
-    "Java/Chap3  Fundamental Programming Structures.md",
-    "python/01 变量和数据类型.md",
-    "python/02 列表.md",
-    "Coding/HDU 1497 图书馆管理系统.md",
-    "Coding/HDU 4939 扔钉子.md",
-    "Coding/HDU 1412 集合并集运算.md",
-    "Coding/HDU 1276 新兵队列.md",
-    "Images/Pasted image 20241018220602.png",
-    "Images/Pasted image 20241018220330.png",
-    "Images/Pasted image 20241018215716.png",
-    "Images/Pasted image 20241018145713.png",
-    "Images/Pasted image 20241015221155.png",
-    "Images/Pasted image 20241015221111.png",
-    "Images/Pasted image 20241015210905.png",
-    "Images/Pasted image 20241015210850.png",
     "Computer Organization/未命名",
     "CS61C-obs/lec 7",
     "作业",
