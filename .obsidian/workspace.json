@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Organization/Chap4  Processor.md",
+                "file": "python/02 列表.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chap4  Processor"
+              "title": "02 列表"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Organization/Chap4  Processor.md"
+                "file": "python/02 列表.md"
               },
               "icon": "lucide-list",
-              "title": "Chap4  Processor 的大綱"
+              "title": "02 列表 的大綱"
             }
           },
           {
@@ -197,8 +197,8 @@
   },
   "active": "4cf59a0f669a58bd",
   "lastOpenFiles": [
-    "Computer Organization/Chap3 Algorithm.md",
     "Computer Organization/Chap4  Processor.md",
+    "Computer Organization/Chap3 Algorithm.md",
     "Images/Pasted image 20241023214659.png",
     "Images/Pasted image 20241023211319.png",
     "Pasted image 20241023211104.png",
