@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/02 列表.md",
+                "file": "Computer Organization/Problem/Chap4 Problems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 列表"
+              "title": "Chap4 Problems"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Organization/Chapter 3 Algorithm.md",
+                "file": "Computer Organization/Chap4  Processor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Chapter 3 Algorithm 的反向連結"
+              "title": "Chap4  Processor 的反向連結"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/02 列表.md"
+                "file": "Computer Organization/Problem/Chap4 Problems.md"
               },
               "icon": "lucide-list",
-              "title": "02 列表 的大綱"
+              "title": "Chap4 Problems 的大綱"
             }
           },
           {
@@ -174,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 261.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,21 +198,28 @@
   },
   "active": "4cf59a0f669a58bd",
   "lastOpenFiles": [
-    "Computer Organization/Chap4  Processor.md",
-    "Computer Organization/Chap3 Algorithm.md",
-    "Images/Pasted image 20241023214659.png",
-    "Images/Pasted image 20241023211319.png",
-    "Pasted image 20241023211104.png",
-    "Images/Pasted image 20241023210922.png",
-    "Computer Organization/Chap2  Instructions.md",
-    "Computer Organization/Chap1 Intro.md",
-    "Computer Organization/C to RISC-V.md",
-    "Images/Pasted image 20241023194028.png",
-    "Images/Pasted image 20241023193650.png",
-    "Images/Pasted image 20241023192850.png",
-    "Images/Pasted image 20241023192147.png",
-    "Pasted image 20241023192816.png",
-    "Images/Pasted image 20241023190419.png",
+    "Pasted image 20241024214754.png",
+    "Computer Organization/Note/Chap4  Processor.md",
+    "Computer Organization/Problem/Chap4 Problems.md",
+    "Pasted image 20241024210924.png",
+    "Images/Pasted image 20241024160153.png",
+    "Computer Organization/Note/Chap3 Algorithm.md",
+    "Pasted image 20241024205630.png",
+    "Images/Pasted image 20241024205027.png",
+    "Images/Pasted image 20241024204005.png",
+    "Computer Organization/Problem",
+    "Computer Organization/Note",
+    "Computer Organization/Note/Chap2  Instructions.md",
+    "Images/Pasted image 20241024171636.png",
+    "Images/Pasted image 20241024171404.png",
+    "Images/Pasted image 20241024170244.png",
+    "Images/Pasted image 20241024165532.png",
+    "Images/Pasted image 20241024164213.png",
+    "![[Pasted.md",
+    "Computer Organization/Note/C to RISC-V.md",
+    "Computer Organization/Note/Chap1 Intro.md",
+    "README.md",
+    "python/02 列表.md",
     "Tools/Git/推送本地文件夹.md",
     "Tools/Git/obsidian将修改同步到GitHub.md",
     "Tools/Git/克隆别人的存储库.md",
@@ -228,11 +236,6 @@
     "Coding/LeetCode150 计算后缀表达式值.md",
     "Coding/POJ1208 方块问题.md",
     "Coding/POJ1363 铁轨.md",
-    "Coding/经验.md",
-    "Data Structure/c++/Infile and Outfile.md",
-    "Data Structure/Tree.md",
-    "Data Structure/c++/new.md",
-    "Computer Organization/未命名",
     "CS61C-obs/lec 7",
     "作业",
     "离散数学",
@@ -241,7 +244,6 @@
     "CS61C-obs/lec 23",
     "CS61C-obs/lec 22",
     "CS61C-obs/lec 20",
-    "CS61C-obs/lec 19",
     "画布示例.canvas"
   ]
 }
