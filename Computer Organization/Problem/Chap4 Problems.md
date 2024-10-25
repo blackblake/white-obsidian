@@ -21,7 +21,7 @@ Registers, ALUsrc mux, ALU, and the MemToReg mux.
 ###### ==**`mux`也是功能单元，不要忽略**==
 
 **4.1.3　对于上述指令，哪些功能单元不产生任何输出？哪些功能单元的输出不会被用到？**
-All blocks produce some output. The outputs of DataMemory and ImmGen are not used.
+所有块都会产生一些输出，但不使用datammemory和ImmGen的输出。
 ###### ==无论什么指令类型，所有的功能单元都会产生输出==，只不过如果没用到的unit若没有输入，就会输出默认值
 
 
@@ -136,3 +136,128 @@ clock cycle time of 950.
 
 Thus, the speedup would be 925/787.6 = 1.174
 
+
+### 4.9
+---
+如果在图4-25的CPU中添加一个乘法器，这将给ALU增添300ps的延迟。但是，由于不再需要对乘法指令进行模拟，指令数量将会减少5%。
+4.9.1　改动前后，时钟周期分别是多少？
+before: 950; 
+after: 1250
+
+4.9.2　通过这个改动，将获得多少加速比？
+Th e running time of a program on the original CPU is 950\*n.
+The running time on the improved CPU is 1250\*(0.95)\*n = 1187.5. Th us, the “speedup” is 0.8.
+
+4.9.3　在保证提升性能的条件下，新ALU最低频率是多少？
+Because adding a multiply instruction will remove 5% of the instructions,
+the cycle time can grow to as much as 950/(0.95) = 1000. Th us, the time
+for the ALU can increase by up to 50 (from 200 to 250)
+
+### 4.10
+---
+设计者对处理器数据通路进行改造，通常会根据性价比做出方案折中。在下面三个问题中，若以图4-25为数据通路的改造基础，各单元延迟参考练习4.7，成本如下：
+![[Pasted image 20241025171904.png]]
+4.10.1　增加这样的改进后，获得的加速比为多少？
+Th e additional registers will allow us to remove 12% of the loads and
+stores, or (0.12)\*(0.25 + 0.1) = 4.2% of all instructions. Thus, the time to
+run n instructions will decrease from (950\*n) to (960\*0.958\*n) = 919.68*n.
+That corresponds to a speedup of 950/919.68 = 1.03.
+
+4.10.2　比较性能上的变化和成本上的变化。
+  The cost of the original CPU is 4507; the cost of the improved CPU is 4707.
+PC: 5
+I-Mem: 1000
+Register file: 200
+ALU: 100
+D-Mem: 2000
+Sign Extend: 1002
+Controls: 10002
+adders: 30\*24
+muxes: 4\*102
+single gates: 2\*1
+  Thus, for a 3% increase in performance, the cost of the CPU increases by
+about 4.4%.
+
+
+### 4.11
+---
+4.11　尝试添加RISC-V中的指令：lwi.d rd, rs1, rs2（地址自增的load指令）​。指令释义：Reg\[rd]=Mem\[Reg\[rs1]+Reg\[rs2]​]
+4.11.1　对于这条指令，需要添加的新功能部件是什么？
+No new functional blocks are needed.
+
+4.11.2　现有的哪些功能部件需要改造？
+Only the control unit needs modifi cation.
+
+4.11.3　对于这条指令，需要新添加的数据通路是什么？
+No new data paths are needed.
+
+4.11.4　为支持这条指令，为控制单元新添加的控制信号有哪些？
+No new signals are needed.
+
+
+### 4.12
+---
+尝试添加RISC-V中的指令：swap rs1, rs2。指令释义：Reg\[rs2]=Reg\[rs1]​；Reg\[rs1]=Reg\[rs2]
+4.12.1　对于这条指令，需要添加的新功能部件是什么？
+No new functional blocks are needed.
+
+4.12.2　现有的哪些功能部件需要改造？
+The register fi le needs to be modifi ed so that it can write to two registers
+in the same cycle. Th e ALU would also need to be modifi ed to allow read
+data 1 or 2 to be passed through to write data 1.
+
+4.12.3　对于这条指令，需要新添加的数据通路是什么？
+Th e answer depends on the answer given in 4.12.2: whichever input was
+not allowed to pass through the ALU above must now have a data path to
+write data 2.
+
+4.12.4　为支持这条指令，为控制单元新添加的控制信号有哪些？
+There would need to be a second RegWrite control wire.
+
+
+### 4.13
+---
+尝试添加RISC-V中的指令：ss rs1, rs2, imm（存储两数之和）​。指令释义：Mem\[Reg\[rs1]​]=Reg\[rs2]+immediate
+4.13.1　对于这条指令，需要添加的新功能部件是什么？
+We need some additional muxes to drive the data paths discussed in 4.13.3.
+
+4.13.2　现有的哪些功能部件需要改造？
+No functional blocks need to be modifi ed.
+
+4.13.3　对于这条指令，需要新添加的数据通路是什么？
+Th ere needs to be a path from the ALU output to data memory’s write
+data port. Th ere also needs to be a path from read data 2 directly to Data
+memory’s Address input.
+
+4.13.4　为支持这条指令，为控制单元新添加的控制信号有哪些？
+Th ese new data paths will need to be driven by muxes. Th ese muxes will
+require control wires for the selector.
+
+
+### 4.14
+---
+对于哪些指令，立即数产生单元(Imm Gen block)处于关键路径上？
+None: all instructions that use sign extend also use the register file, which
+is slower.
+
+
+### 4.15
+---
+4.15　从4.4节可知，lw是CPU中延迟最长的一条指令。如果修改lw和sw的功能，去掉地址偏移，比如lw或sw指令的访存地址只能使用计算后存放于rs1中的数值，那么就不会有指令同时使用ALU和数据存储，这将缩短时钟周期。但是这也会增多指令数目，因为很多lw和sw指令将会被lw/add或者sw/add组合取代。
+
+4.15.1　修改后的时钟周期是多少？
+Th e new clock cycle time would be 750. ALU and Data Memory will now
+run in parallel, so we have effectively removed the faster of the two (the
+ALU with time 200) from the critical path.
+
+4.15.2　在这款新CPU上运行如练习4.7中的指令组合，将会变快还是变慢？大概变化多少？（为简化起见，假设每条lw和sw指令将被两条指令的组合取代）
+Slower. The original CPU takes 950\*n picoseconds to run n instructions.
+The same program will have approximately 1.35\*n instructions when
+compiled for the new machine. Th us, the time on the new machine will be
+750\*1.35n = 1012.5\*n. Th is represents a “speedup” of 0.93.
+
+4.15.3　在新款CPU上使程序运行速度变快或者变慢的主要因素是什么？
+The number of loads and stores is the primary factor. How the loads and
+stores are used can also have an effect. For example, a program whose
+loads and stores tend to be to only a few diff erent address may also run
+faster on the new machine.
