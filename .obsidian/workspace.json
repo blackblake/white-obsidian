@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Organization/Note/Chap3 Algorithm.md",
+                "file": "Coding/examtesting 移动偶数位.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chap3 Algorithm"
+              "title": "examtesting 移动偶数位"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Organization/Note/Chap3 Algorithm.md"
+                "file": "Coding/examtesting 移动偶数位.md"
               },
               "icon": "lucide-list",
-              "title": "Chap3 Algorithm 的大綱"
+              "title": "examtesting 移动偶数位 的大綱"
             }
           },
           {
@@ -174,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
-    "collapsed": true
+    "width": 261.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,12 +197,13 @@
   },
   "active": "4cf59a0f669a58bd",
   "lastOpenFiles": [
+    "Computer Organization/Note/Chap4  Processor.md",
+    "Coding/examtesting 移动偶数位.md",
+    "Computer Organization/Note/Chap3 Algorithm.md",
     "Pasted image 20241025212752.png",
     "Pasted image 20241025212720.png",
-    "Computer Organization/Note/Chap3 Algorithm.md",
     "Computer Organization/Problem/Chap4 Problems.md",
     "Images/Pasted image 20241025171904.png",
-    "Computer Organization/Note/Chap4  Processor.md",
     "Pasted image 20241024214754.png",
     "Pasted image 20241024210924.png",
     "Images/Pasted image 20241024160153.png",
@@ -214,7 +214,6 @@
     "Computer Organization/Note",
     "Computer Organization/Note/Chap2  Instructions.md",
     "Images/Pasted image 20241024171636.png",
-    "Images/Pasted image 20241024171404.png",
     "![[Pasted.md",
     "Computer Organization/Note/C to RISC-V.md",
     "Computer Organization/Note/Chap1 Intro.md",
