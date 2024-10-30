@@ -39,7 +39,7 @@ Notice how this function reads digit by digit from two lists that are not necess
 
 
 ### （2）Summery
-1. **how to convert char to int**
+1. ==**how to convert char to int**==
 ```cpp
 char a = '4';
 int ia = a - '0';

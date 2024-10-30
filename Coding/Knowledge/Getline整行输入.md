@@ -74,3 +74,6 @@ string slist[100];
         i++;
     }
 ```
+
+##### 不用sstream也能操作str
+![[Pasted image 20241029235637.png]]

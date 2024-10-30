@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4cf59a0f669a58bd",
+            "id": "415e680691455bb3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Coding/Problems/队列/ExamTest1 移动偶数位.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "ExamTest1 移动偶数位"
+            }
+          },
+          {
+            "id": "22a23138a5ce8de5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DSA期中.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DSA期中"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -52,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "提交",
+                "query": "to_",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Organization/Chapter 3 Algorithm.md",
+                "file": "Coding/Knowledge/Getline整行输入.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Chapter 3 Algorithm 的對外連結"
+              "title": "Getline整行输入 的對外連結"
             }
           },
           {
@@ -139,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "DSA期中.md"
               },
               "icon": "lucide-list",
-              "title": "README 的大綱"
+              "title": "DSA期中 的大綱"
             }
           },
           {
@@ -174,7 +189,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 261.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,54 +211,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4cf59a0f669a58bd",
+  "active": "22a23138a5ce8de5",
   "lastOpenFiles": [
-    "().md",
-    "README.md",
-    "Coding/Problems/ExamTest2 循环链表.md",
-    "Coding/Knowledge/Getline.md",
-    "Coding/Knowledge/How to solve problems.md",
-    "Images/4aba8780ca7ae59076ed62f2e9afcd9.png",
-    "Coding/Problems/ExamTest1 移动偶数位.md",
-    "Coding/Problems/HDU 1276 新兵队列.md",
+    "Coding/Knowledge/经验.md",
+    "Coding/Problems/栈/HDU 5818 栈合并操作.md",
+    "DSA期中.md",
+    "Coding/Problems/栈/POJ1363 铁轨.md",
+    "Coding/Problems/线性表/Lab 1-1 二维表的大于连接.md",
+    "Coding/Problems/栈/LeetCode150 计算后缀表达式值.md",
+    "Coding/Problems/线性表/Leetcode.143 重排链表.md",
+    "Coding/Problems/栈/Lab 1.2  判断数学表达式是否等效.md",
+    "Coding/Problems/线性表/hw2 归并排序.md",
+    "Coding/Problems/栈/HW3 逆波兰表达式.md",
+    "Coding/Problems/字符串/LeetCode443 压缩字符串.md",
+    "Coding/Problems/线性表/hw2 约瑟夫环.md",
+    "Coding/Problems/线性表/hw2 顺序表元素划分.md",
+    "Coding/Problems/线性表/HDU1276 新兵队列.md",
+    "Coding/Problems/线性表/HDU 1497 图书馆管理系统.md",
+    "Coding/Problems/线性表/HDU 1412 集合并集运算.md",
+    "Coding/Problems/线性表/ExamTest2 循环链表.md",
+    "Coding/Problems/队列/HDU 4939 扔钉子.md",
+    "Coding/Problems/队列/POJ2259 团队队列.md",
+    "Coding/Problems/队列/ExamTest1 移动偶数位.md",
+    "离散数学期中分析.md",
     "Coding/Knowledge/How to write Recursion.md",
-    "Coding/Knowledge/Experience.md",
-    "Images/Pasted image 20241027025557.png",
+    "Coding/Knowledge/Getline整行输入.md",
+    "Coding/Knowledge/How to solve problems.md",
+    "Coding/Knowledge/break.md",
+    "Coding/Knowledge/判断输入类型.md",
+    "Coding/Problems/其他",
+    "Coding/Problems/字符串",
+    "Image/Pasted image 20241030150843.png",
+    "Coding/Problems/栈",
+    "Coding/Problems/线性表",
+    "Coding/Problems/队列",
+    "Image/Pasted image 20241029235637.png",
+    "Image/Pasted image 20241028211225.png",
+    "Image/Pasted image 20241028210137.png",
+    "Image/Pasted image 20241028210049.png",
+    "Image/Pasted image 20241028210035.png",
+    "Image/Pasted image 20241028210016.png",
+    "Image/Pasted image 20241028205806.png",
+    "Image/Pasted image 20241028205733.png",
+    "Image/Pasted image 20241028205714.png",
     "Coding/Knowledge",
-    "Coding/Problems/未命名",
     "Coding/Problems",
-    "Computer Organization/Note/Chap2  Instructions.md",
-    "Computer Organization/Problem/Chap2 Problems.md",
-    "Computer Organization/Problem/Chap4 Problems.md",
-    "Computer Organization/Note/原码vs补码.md",
-    "Images/Pasted image 20241027025419.png",
-    "2024-10-27.md",
-    "Pasted image 20241027010515.png",
-    "Computer Organization/Note/Chap3 Algorithm.md",
-    "Computer Organization/Note/Chap4  Processor.md",
-    "Pasted image 20241025212752.png",
-    "Pasted image 20241025212720.png",
-    "Images/Pasted image 20241025171904.png",
-    "Pasted image 20241024214754.png",
-    "Pasted image 20241024210924.png",
-    "Images/Pasted image 20241024160153.png",
     "Computer Organization/Problem",
     "Computer Organization/Note",
-    "![[Pasted.md",
-    "Computer Organization/Note/C to RISC-V.md",
-    "Computer Organization/Note/Chap1 Intro.md",
-    "python/02 列表.md",
-    "Tools/Git/推送本地文件夹.md",
-    "Tools/Git/obsidian将修改同步到GitHub.md",
-    "Tools/Git/克隆别人的存储库.md",
-    "Tools/Git/常识.md",
-    "Plan/考研信息.md",
-    "Plan/绩点.md",
     "CS61C-obs/lec 7",
-    "作业",
-    "离散数学",
-    "Java",
-    "Computer Organization",
     "画布示例.canvas"
   ]
 }

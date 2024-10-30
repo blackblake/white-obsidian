@@ -68,28 +68,6 @@
 ---
 
 ```cpp
-struct LinkNode {
-
-    int data;
-
-    LinkNode* next;
-
-    LinkNode() {
-
-        next = nullptr;
-
-    }
-
-    LinkNode(int val) {
-
-        data = val;
-
-        next = nullptr;
-
-    }
-};
-
-  
 // 合并两个有序链表(包括了左右各只有一个结点的排序！)
 LinkNode* merge(LinkNode* left, LinkNode* right) {
 
@@ -104,11 +82,8 @@ LinkNode* merge(LinkNode* left, LinkNode* right) {
         } 
         
         else {
-
             rear->next = right;
-
             right = right->next;//别忘了把left(right)往前进！
-
         }
 
         rear = rear->next;
@@ -126,22 +101,18 @@ LinkNode* merge(LinkNode* left, LinkNode* right) {
 LinkNode* listSort(LinkNode* head) {
 
     // 如果链表为空或只有一个节点，直接返回
-    // 这一句必须加上！！因为当递推到只有一个结点的时候，这句话就是终止条件！
    if (!head || !head->next) return head;
 
   
     // 快慢指针法找中间节点
-    //必须反复背下来！
     LinkNode* slow = head;
     LinkNode* fast = head->next;
-
     while (fast && fast->next) {
         slow = slow->next;
         fast = fast->next->next;
     }
 
     // 断开链表
-    //一定不能忘记断开，不然会导致运行时错误!
     LinkNode* right = slow->next;
     slow->next = nullptr;
 
@@ -152,40 +123,6 @@ LinkNode* listSort(LinkNode* head) {
     // 合并已排序的左右部分
     return merge(left, right);
 }
-
-  
-
-int main() {
-
-    ifstream infile("in.txt");
-
-    int val;
-    LinkNode* head = new LinkNode();
-    LinkNode* rear = head;
-
-    while (infile >> val) {
-        LinkNode* p = new LinkNode(val);
-        rear->next = p;
-        rear = rear->next;
-    }
-
-    infile.close(); //输入文件in.txt关闭后才能打开输出文件out.txt！
-
-    head->next = listSort(head->next);
-
-    ofstream outfile("out.txt"); //输入文件in.txt关闭后才能打开输出文件out.txt！
-
-    LinkNode* printlist = head->next;
-
-    while (printlist != nullptr) {
-        outfile << printlist->data << " ";
-        printlist = printlist->next;
-    }
-
-    outfile.close();
-    return 0;
-    
-}
 ```
 
 ---
@@ -195,7 +132,7 @@ int main() {
 	
 - **二路归并时，别忘了把left(right)往前进！** 
 	
--  ==**输入文件in.txt关闭后才能打开输出文件out.txt！**==
+-  **输入文件in.txt关闭后才能打开输出文件out.txt！**
 	
 -  **如果链表为空或只有一个节点，直接返回（ 所有对链表操作的函数，开头必须加上这一句！！）**
 ```cpp

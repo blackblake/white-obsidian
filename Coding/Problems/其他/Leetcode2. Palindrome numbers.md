@@ -9,13 +9,10 @@ string s = to_string(42);
 
   \#stoi convert string to int
 ```cpp
-std::stoi( str )
+stoi( str )
 ```
 
-2. the length of string
-both `size()`and `length()`are legal
-
-3. MY MISUNDERSTANDINGS
+2. MY MISUNDERSTANDINGS
 ```cpp
 string str=to_string(x);//convert x to a string 
 int result =0; 

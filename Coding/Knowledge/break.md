@@ -1,0 +1,1 @@
+`break`, `continue`除了`while`,还可以用在`for`语句里用于中断或继续下一次循环

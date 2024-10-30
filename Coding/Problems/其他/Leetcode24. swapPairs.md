@@ -10,15 +10,3 @@
 // 检查链表是否为空或只有一个节点 
 if (!head || !head->next) { return head; }
 ```
-
-
-### 2# 在VSCode上自己完善的完整版代码
-
- 1. **添加LIstNode和List结构体，其中List结构体包含：**
-- head指针
-- swapPairs( )函数
-- creatList( )函数
-
-2. **在swapPair的循环里添加了每次打印当前链表的代码，方便勘误**
-
-### 3# 此题关键是交换链表结点的方法，要多回顾
