@@ -1,4 +1,5 @@
 - 注意`[ ]`和`( )`什么时候用哪个
+	new语句用"\[ ]": `int* data=new int[Maxsize]`
 	
 -  引用传参
 	
@@ -40,6 +41,16 @@ switch (op)//op只能是int或char
 	
 -  避免过长的`p->next->next->...`，很容易出现运行时错误。而用`countsize`等函数来代替
 	
--  需要着重记背的代码：[归并排序](obsidian://open?vault=Obsidian%20Vault&file=Coding%2FProblems%2F%E7%BA%BF%E6%80%A7%E8%A1%A8%2Fhw2%20%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F)、[逆波兰表达式](obsidian://open?vault=Obsidian%20Vault&file=Coding%2FProblems%2F%E6%A0%88%2FLab%201.2%20%20%E5%88%A4%E6%96%AD%E6%95%B0%E5%AD%A6%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%98%AF%E5%90%A6%E7%AD%89%E6%95%88)、[重排链表](obsidian://open?vault=Obsidian%20Vault&file=Coding%2FProblems%2F%E7%BA%BF%E6%80%A7%E8%A1%A8%2FLeetcode.143%20%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8)
+-  需要着重记背的代码：[归并排序](obsidian://open?vault=Obsidian%20Vault&file=Coding%2FProblems%2F%E7%BA%BF%E6%80%A7%E8%A1%A8%2Fhw2%20%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F)、[逆波兰表达式](obsidian://open?vault=Obsidian%20Vault&file=Coding%2FProblems%2F%E6%A0%88%2FLab%201.2%20%20%E5%88%A4%E6%96%AD%E6%95%B0%E5%AD%A6%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%98%AF%E5%90%A6%E7%AD%89%E6%95%88)、[重排链表](obsidian://open?vault=Obsidian%20Vault&file=Coding%2FProblems%2F%E7%BA%BF%E6%80%A7%E8%A1%A8%2FLeetcode.143%20%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8)、KMP算法
 	
 -  注意死循环：如果存在`while(vec[i]!=y)`的循环，一定要考虑如果所有的vec\[i]都不等于y该怎么办
+	
+- `getline`的用法（isstringstream的用法还是要背一下） 
+	
+- 区分线性表和顺序表：**顺序表和链表是线性表的两种主要实现方式*
+	
+- ==重要的代码一定好好背，别偷懒！==（KMP的教训）
+	
+-  **如果来不及把所有的功能都实现，也可以完成一个粗略版的，只完成一部分功能，也能通过一些测试用例**
+	
+- **考试考得其实不难，重在基础，一定要踏实下来背** 

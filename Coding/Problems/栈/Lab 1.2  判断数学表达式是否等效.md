@@ -28,6 +28,7 @@ public:
             if (ch == '(') {//左括号直接进栈
                 opor.push(ch);
             } 
+            
             else if (ch == ')') {
                 while (!opor.empty() && opor.top() != '(') {
                     //直接把栈顶字符弹出并加入到postexp后面
@@ -53,6 +54,7 @@ public:
                 }
                 opor.push(ch);
             } 
+            
             else if (isalpha(ch)) { // 处理字母，使用其ASCII值
                 int ascii_val = static_cast<int>(ch); // 获取字母的ASCII码值
                 postexp += to_string(ascii_val); // 转成字符串加入表达式
@@ -84,11 +86,11 @@ public:
     }
 
     double GetValue() {//计算后缀表达式的值
-        stack<double> opand;
+        stack<double> opand;//开辟一个操作数栈
         double a, b, c, d;
         char ch;
         int i = 0;
-        while (i < postexp.length()) {
+        while (i < postexp.length()) {//遍历后缀表达式
             ch = postexp[i];
             switch (ch) {
                 case '+':
@@ -116,22 +118,23 @@ public:
                     a = opand.top(); opand.pop();
                     b = opand.top(); opand.pop();
                     c = b / a; //是b/a!!
-                    opand.push(c);
+                    opand.push(c);//压入操作数栈
                     break;
 
                 default://遇到数字
                     d = 0;
-                    while (ch >= '0' && ch <= '9') {//注意数字可能有多位！!
+                    //注意数字可能有多位,所以用while一直到ch不是数字才停下来
+                    while (ch >= '0' && ch <= '9') {//如果ch是数字
                         d = 10 * d + (ch - '0');//这里对多位数字的处理！！
                         i++;
                         ch = postexp[i];
                     }
-                    opand.push(d);
+                    opand.push(d);//记得压栈
                     break;
             }
             i++;
         }
-        return opand.top();
+        return opand.top();//最后返回唯一剩下的那个元素
     }
 };
 
@@ -163,8 +166,10 @@ int main() {
 ```
 
 1. GetValue函数
-- 所有运算都是b+a,b-a,b×a,b/a（**b在前**）
-- 对数字的处理是难点：①数字有可能是多位，所以要循环读取`while (ch >= '0' && ch <= '9')`；②如何由逐个读取的单个数字组成一个多位数字？方法是每次将d乘以10再加上新的数字`d = 10 * d + (ch - '0');`
+- ==所有运算都是b+a,b-a,b×a,b/a（**b在前**）==
+- 对数字的处理是难点：
+a) **数字有可能是多位，所以要循环读取`while (ch >= '0' && ch <= '9')`；**
+b) **如何由逐个读取的单个数字组成一个多位数字？方法是每次将d乘以10再加上新的数字`d = 10 * d + (ch - '0');`**
 
 
 ---
