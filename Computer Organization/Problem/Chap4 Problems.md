@@ -91,10 +91,10 @@ Branch: Inputs: PC+4 and 0x000000000000000A
 No additional logic blocks are needed.
 
 **4.6.2　为addi指令列出控制单元产生的信号值。**
-Branch: false
+Branch: false（**除了mux的0和1之外的控制信号都用==false==和==true==来表示是否有效，因为不一定低电平有效还是高电平有效**）
 MemRead: false
-MemToReg: 0
-**ALUop: 10 (or simply saying “[add]” is suffi cient for this problem)**
+MemToReg: 0（MemToReg是**从ALU输出和DataMem输出中二选一**写回寄存器的mux）
+**ALUop: 10 (or simply saying “==add==” is suffi cient for this problem)**
 MemWrite: false
 ALUsrc: 1
 RegWrite: 1
@@ -106,6 +106,8 @@ RegWrite: 1
 4.7.1　R型指令的延迟是多少？（如果想让这类指令工作正确，时钟周期最少为多少？）
 R-type : [30 (read PC)] + 250 + 150 + [25 (ALUrcs mux)] + 200 
 \+ [25 (MemtoReg mux)] + [20 (write rd)] = 700ps
+`1）注意不要忘了mux的延迟`
+`2）ImmGen和Adder的延迟为什么不加进来算？`
 
 4.7.2　lw指令的延迟是多少？
 lw : 30 + 250 + 150 + 25 + 200 + [250 (read Data-Memo)] + 25 + 20 = 950 ps
@@ -233,6 +235,8 @@ memory’s Address input.
 Th ese new data paths will need to be driven by muxes. Th ese muxes will
 require control wires for the selector.
 
+![[Pasted image 20241105190145.png]]
+
 
 ### 4.14
 ---
@@ -261,3 +265,9 @@ The number of loads and stores is the primary factor. How the loads and
 stores are used can also have an effect. For example, a program whose
 loads and stores tend to be to only a few diff erent address may also run
 faster on the new machine.
+
+### 4.19
+---
+问x15的最终值是多少，而x15只在第四条指令中被写入；x15的值取决于x11的值，而第一条和第四条指令可能存在数据冒险，所以看图：
+![[Pasted image 20241105193156.png]]
+ 重点在**CC 5**即第五周期，在这个周期里**同时发生**了 “***第一条指令将x11的新值写入Reg***(寄存器堆)” 和 “***第四条指令从Reg中读取x11的值***” 这两件事，而题目说 **“先写后读”**，所以当第四条指令读取x11的时候，x11已经被第一条指令写入新的值了，所以没有发生数据冒险。
