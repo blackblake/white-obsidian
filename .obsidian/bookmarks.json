@@ -1,6 +1,12 @@
 {
   "items": [
     {
+      "type": "folder",
+      "ctime": 1732379124865,
+      "path": "题解/Problems/二叉树",
+      "title": "二叉树"
+    },
+    {
       "type": "file",
       "ctime": 1730122783584,
       "path": "数据结构/Chap 1-6/KMP.md"
