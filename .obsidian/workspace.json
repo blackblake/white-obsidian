@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机组成与设计/Note/Chap5 Memory/5.7 虚拟内存.md",
+                "file": "数据结构实现/图/最小生成树/Prim.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.7 虚拟内存"
+              "title": "Prim"
             }
           }
         ]
@@ -195,31 +195,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e9bd10e3fd40eca3",
+  "active": "db5a598615ece429",
   "lastOpenFiles": [
+    "ad29422a2dd8d1358dbfbfdd9edb83f.jpg",
+    "Pasted image 20241130184214.png",
+    "Pasted image 20241130183945.png",
+    "Pasted image 20241130183439.png",
+    "Pasted image 20241130183425.png",
+    "Pasted image 20241130183400.png",
+    "Pasted image 20241130183348.png",
+    "数据结构实现/图/邻接矩阵.md",
+    "数据结构实现/图/最小生成树/Prim.md",
+    "数据结构实现/图/最小生成树",
+    "数据结构实现/图/图的遍历",
+    "计算机组成与设计/Note/Chap5 Memory/5.7 虚拟内存.md",
     "Image/Pasted image 20241130003009.png",
     "Image/Pasted image 20241130002059.png",
     "Image/Pasted image 20241130002046.png",
     "Image/Pasted image 20241130001953.png",
-    "Image/Pasted image 20241130001933.png",
-    "Image/Pasted image 20241130001914.png",
-    "Image/Pasted image 20241130001849.png",
-    "Image/Pasted image 20241130001747.png",
     "计算机组成与设计/Note/Chap5 Memory/5.4 Cache性能分析与改进.md",
-    "计算机组成与设计/Note/Chap5 Memory/5.7 虚拟内存.md",
-    "Pasted image 20241130002059.png",
-    "Pasted image 20241130002046.png",
-    "Pasted image 20241130001953.png",
     "计算机组成与设计/Note/Chap5 Memory/5.3 The Basics of Cache.md",
     "计算机组成与设计/Note/Chap4 Processor/4.3-4.4 Review.md",
     "计算机组成与设计/Note/Chap4 Processor/4.3-4.4.md",
-    "数据结构实现/图/DFS的应用.md",
-    "数据结构实现/图/BFS广度优先搜索.md",
-    "数据结构实现/图/BFS的应用：求最短路径.md",
+    "数据结构实现/图/图的遍历/DFS的应用.md",
+    "数据结构实现/图/图的遍历/BFS广度优先搜索.md",
+    "数据结构实现/图/图的遍历/BFS的应用：求最短路径.md",
     "题解/Problems/二叉树/Lc257 到叶子节点的所有路径.md",
     "题解/Problems/二叉树/Lc222 完全二叉树的节点个数.md",
     "题解/Problems/二叉树/Lc112 路径总和.md",
-    "数据结构实现/图/DFS深度优先搜索.md",
+    "数据结构实现/图/图的遍历/DFS深度优先搜索.md",
     "题解/Problems/二叉树/Lc226 翻转二叉树.md",
     "题解/Problems/二叉树/Lc199 从右到左层序遍历.md",
     "题解/Problems/二叉树/Lc110 平衡二叉树.md",
@@ -227,13 +231,11 @@
     "题解/Problems/二叉树/Lc106 中、后序序列构造二叉树.md",
     "题解/Problems/二叉树/Lc104 求二叉树的最大深度（递归版）.md",
     "题解/Problems/二叉树/Lc104 求二叉树的最大(小)深度--层序版.md",
-    "数据结构实现/图/邻接矩阵.md",
     "数据结构实现/二叉树/先中后序遍历.md",
     "数据结构实现/图",
     "数据结构实现/二叉树/层序遍历.md",
     "题解/Problems/二叉树/Lc98 验证二叉搜索树.md",
     "题解/Problems/二叉树/Lc700 二叉搜索树中的搜索.md",
-    "题解/Problems/二叉树/Lc617 合并二叉树.md",
     "未命名",
     "未命名.canvas",
     "题解/Problems/二叉树",
@@ -242,8 +244,6 @@
     "数据结构/Chap 1-6",
     "DSA代码",
     "计算机组成与设计/Note/Chap4 Processor",
-    "计算机组成与设计/Note/Appendix",
-    "计算机组成与设计/Note/Chap5 Memory",
     "画布示例.canvas"
   ]
 }
