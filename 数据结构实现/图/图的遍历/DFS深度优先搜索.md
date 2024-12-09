@@ -3,10 +3,10 @@
 ```cpp
 int visited[MAXV];
 
-void DFSA(AdjGraph& G)
+void DFSA(AdjGraph& G)//对于非连通图！！
 {
 	for(int i=0;i<G.n;i++){
-		if(visited[i]==0){DSF(G,i);}
+		if(visited[i]==0){DSF(G,i);}//一定要保证最后所有顶点都处于被访问过的状态
 	}
 }
 

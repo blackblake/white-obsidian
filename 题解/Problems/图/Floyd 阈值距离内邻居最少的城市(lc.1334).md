@@ -1,6 +1,8 @@
 
 ![[Pasted image 20241202201446.png|500]]
 
+**==Floyd算法的代码只有三段：建立并初始化最短距离A数组、把所有A\[i]\[i]置0、k-i-j循环==**
+
 ```cpp
 class Solution {
 public:
