@@ -55,4 +55,43 @@ int numLetters = switch(day){
 	也可以通过产生2个随机数（比如，0和1，0表示加法，1表示减法）确定：
        `int operator =  (int)(Math.random()*2);`
 
-### 5）学到第41张
+### 5）E.g. 猜数字
+
+```java
+int magic = (int)(Math.random()*101)+100;
+      Scanner sc = new Scanner(System.in);
+      System.out.print("请输入你猜的数：");
+      int guess = sc.nextInt(); 
+      while(guess != magic){
+          if(guess > magic)
+                 System.out.print("错误!太大，请重猜：");
+         else
+           System.out.print("错误!太小，请重猜：");
+        guess = sc.nextInt();
+      }
+     System.out.println("恭喜你，答对了！\n该数是："+magic);//这个输出注意一下
+```
+
+### 6）for循环
+
+1. 条件语句可以使用**多个变量**：
+```java
+for(int i = 0, j = 10 ; i < j ; i++, j--) {...}
+```
+2. for循环中的一部分或全部**可为空**，循环体也可为空，但 **分号不能省略**
+```java
+for ( ;  ; ){
+    // 这实际是一个无限循环
+}
+```
+
+
+### 7）break
+break语句是用来跳出while、do、for或switch结构的执行，该语句有两种格式：
+    `break;  //只能跳出当前循环`
+	`break label; //多用于跳出多重循环`
+![[Pasted image 20241218021103.png|300]]
+
+>PS：continue也有 continue label; 的用法
+
+### 8）
