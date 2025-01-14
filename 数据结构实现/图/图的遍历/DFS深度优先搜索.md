@@ -15,7 +15,7 @@ void DFS(MatGraph& G,int v)
 	cout<<v<<" ";//对当前顶点访问
 	visited[v]=1;
 	
-	for(int w=0;w<G.n;w++)//遍历邻接矩阵中,当前顶点的这一整列
+	for(int w=0;w<G.n;w++)//遍历邻接矩阵中,当前顶点的这一整行
 	{
 		if(G.edges[v][w]!=0&&G.edges[v][w]!=INF)//若存在边<v,w>
 			if(visited[w]==0)//并且w没有被访问过

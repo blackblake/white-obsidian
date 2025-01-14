@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机组成与设计/笔记/Chap4 Processor/4.7  Data Hazard.md",
+                "file": "操作系统/Chap4 HW.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.7  Data Hazard"
+              "title": "Chap4 HW"
             }
           }
         ]
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d484d3697044ed85",
@@ -94,10 +93,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机组成与设计/笔记/Chap4 Processor/4.6  Pipelined Datapath and Control.md"
+                "file": "操作系统/Chap4 HW.md"
               },
               "icon": "lucide-list",
-              "title": "4.6  Pipelined Datapath and Control 的大綱"
+              "title": "Chap4 HW 的大綱"
             }
           },
           {
@@ -196,55 +195,55 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0215e6d02c2c4859",
+  "active": "e9bd10e3fd40eca3",
   "lastOpenFiles": [
-    "Pasted image 20241218173258.png",
-    "计算机组成与设计/笔记/Chap4 Processor/4.3-4.4  Review.md",
-    "计算机组成与设计/笔记/Chap4 Processor/4.7  Data Hazard.md",
-    "计算机组成与设计/笔记/Chap4 Processor/4.6  Pipelined Datapath and Control.md",
-    "Pasted image 20241218172956.png",
-    "Pasted image 20241218172158.png",
-    "Pasted image 20241218171955.png",
-    "Pasted image 20241218171430.png",
-    "Pasted image 20241218171401.png",
-    "Pasted image 20241218165834.png",
-    "Pasted image 20241218165815.png",
-    "Pasted image 20241218165748.png",
-    "计算机组成与设计/笔记/Chap4 Processor/4.5  Pipeline.md",
-    "Pasted image 20241218165212.png",
-    "计算机组成与设计/笔记/Chap4 Processor/4.3-4.4  Sigle-Circle.md",
-    "计算机组成与设计/笔记/Chap3 Algorithm.md",
-    "CS61C-obs/Sign-Extension.md",
-    "CS61C-obs/lec 7/lec08  Load,Store and Branch.md",
-    "CS61C-obs/lec 7/lec7  RISC-V Intro.md",
-    "Java/Chap3  Fundamental Programming Structures.md",
-    "Java/Chap4  Class.md",
+    "Image/Pasted image 20250114162533.png",
+    "Image/Pasted image 20250114160752.png",
+    "操作系统/概述.canvas",
+    "操作系统/Chap4 HW.md",
+    "Acwing/快速排序.md",
+    "操作系统/Chap2  Introduction to Operating Systems.md",
+    "数据结构题解/Knowledge/怎样写递归.md",
+    "Acwing/未命名",
+    "Acwing",
+    "数据结构题解/Knowledge/How to solve problems.md",
     "README.md",
-    "Image/Pasted image 20241218022140.png",
-    "数据结构/Chap 7  树.md",
-    "数据结构/Chap 8  图.md",
-    "数据结构实现/查找/二叉平衡树AVL.md",
-    "数据结构实现/查找/二叉搜索树BST.md",
-    "数据结构实现/查找",
+    "计算机组成与设计/笔记/Chap5 Memory/5.7 虚拟内存.md",
+    "操作系统",
     "计算机组成与设计/笔记/Chap5 Memory/5.3 Cache.md",
     "计算机组成与设计/笔记/Chap5 Memory/5.4 Cache性能分析与改进.md",
+    "计算机组成与设计/笔记/Chap4 Processor/4.5  Pipeline.md",
+    "计算机组成与设计/笔记/Chap4 Processor/4.6  Pipelined Datapath and Control.md",
+    "计算机组成与设计/笔记/Chap4 Processor/4.7  Data Hazard.md",
+    "计算机组成与设计/笔记/Chap4 Processor/4.8 Control Hazard.md",
+    "计算机组成与设计/题目/Chap2 Solutions.md",
+    "计算机组成与设计/题目/Chap3 Solutions.md",
+    "计算机组成与设计/题目/Chap5 Solutions.md",
+    "计算机组成与设计/题目/Chap4 Solutions.md",
+    "计算机组成与设计/笔记/Chap1 Intro.md",
     "计算机组成与设计/笔记/Chap2  Instructions.md",
-    "DSA实验验收.md",
-    "数据结构实现/二叉树/层序遍历.md",
-    "离散数学期中分析.md",
-    "计组作业.md",
-    "DSA期中.md",
+    "计算机组成与设计/笔记/Chap3 Algorithm.md",
+    "计算机组成与设计/笔记/Chap5 Memory/写策略.md",
+    "计算机组成与设计/笔记/Appendix/原码vs补码.md",
     "计算机组成与设计/笔记/Chap5 Memory/5.1 Intro.md",
-    "未命名",
-    "题解/Problems/图",
+    "计算机组成与设计/笔记/Appendix/偏移量左移1bit.md",
+    "Image/Pasted image 20250110080141.png",
+    "Image/Pasted image 20250110074556.png",
+    "Image/Pasted image 20250110073539.png",
+    "Image/Pasted image 20250110072638.png",
+    "Image/Pasted image 20250110082813.png",
+    "Image/Pasted image 20250110082750.png",
+    "Image/Pasted image 20250110081545.png",
+    "Image/Pasted image 20250110080601.png",
+    "Image/Pasted image 20250110074629.png",
+    "计算机组成与设计/笔记/Chap4 Processor/4.3-4.4  Sigle-Circle.md",
+    "Tools/Git",
+    "Tools",
+    "题解/Problems/二叉树.zip",
+    "题解/Problems/二叉树.rar",
+    "数据结构实现/查找",
+    "数据结构题解/Problems/图",
     "数据结构实现/图/最短路径",
-    "RL",
-    "数据结构实现/图/最小生成树",
-    "数据结构实现/图/图的遍历",
-    "数据结构实现/图",
-    "未命名.canvas",
-    "题解/Problems/二叉树",
-    "数据结构实现/二叉树",
     "画布示例.canvas"
   ]
 }
