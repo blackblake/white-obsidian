@@ -76,6 +76,7 @@ Process ID (PID) 是操作系统中唯一标识进程的编号，系统用它区
 ![[Pasted image 20250114160752.png]]
 运行两个进程，使用-l、-c参数，两个进程的PID分别顺序分配为0和1，注意看其状态
 
+在C语言中可以用getpid()函数得到当前进程的PID值
 
 #### -l和-L的区别
 ---
@@ -94,7 +95,5 @@ Process ID (PID) 是操作系统中唯一标识进程的编号，系统用它区
 #### -p
 ---
 - 打印一些stats，如total time、CPU busy time（CPU利用率）、 IO Busy time
-
 - 
-
 

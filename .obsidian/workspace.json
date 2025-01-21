@@ -11,14 +11,10 @@
             "id": "0215e6d02c2c4859",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "操作系统/Chap4 HW.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Chap4 HW"
+              "title": "新分頁"
             }
           }
         ]
@@ -93,10 +89,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/Chap4 HW.md"
+                "file": "Acwing/快速排序.md"
               },
               "icon": "lucide-list",
-              "title": "Chap4 HW 的大綱"
+              "title": "快速排序 的大綱"
             }
           },
           {
@@ -195,16 +191,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e9bd10e3fd40eca3",
+  "active": "0215e6d02c2c4859",
   "lastOpenFiles": [
+    "OStep_hw/Chap4/solutions.md",
+    "OStep_hw/Chap5/solution.md",
+    "操作系统/Chap5.md",
+    "OStep_hw/Chap5",
+    "OStep_hw/Chap4/process-run.py",
+    "OStep_hw/Chap4",
+    "OStep_hw",
+    "Reinforcement Learning/Introduction.md",
+    "Reinforcement Learning",
+    "Acwing/基础算法/归并排序.md",
+    "Acwing/基础算法/快排.md",
+    "Acwing/基础算法/快排的边界条件.md",
+    "Acwing/基础算法",
+    "操作系统/Chap4.md",
     "Image/Pasted image 20250114162533.png",
     "Image/Pasted image 20250114160752.png",
     "操作系统/概述.canvas",
-    "操作系统/Chap4 HW.md",
-    "Acwing/快速排序.md",
     "操作系统/Chap2  Introduction to Operating Systems.md",
     "数据结构题解/Knowledge/怎样写递归.md",
-    "Acwing/未命名",
     "Acwing",
     "数据结构题解/Knowledge/How to solve problems.md",
     "README.md",
@@ -223,10 +230,6 @@
     "计算机组成与设计/笔记/Chap1 Intro.md",
     "计算机组成与设计/笔记/Chap2  Instructions.md",
     "计算机组成与设计/笔记/Chap3 Algorithm.md",
-    "计算机组成与设计/笔记/Chap5 Memory/写策略.md",
-    "计算机组成与设计/笔记/Appendix/原码vs补码.md",
-    "计算机组成与设计/笔记/Chap5 Memory/5.1 Intro.md",
-    "计算机组成与设计/笔记/Appendix/偏移量左移1bit.md",
     "Image/Pasted image 20250110080141.png",
     "Image/Pasted image 20250110074556.png",
     "Image/Pasted image 20250110073539.png",
@@ -235,15 +238,8 @@
     "Image/Pasted image 20250110082750.png",
     "Image/Pasted image 20250110081545.png",
     "Image/Pasted image 20250110080601.png",
-    "Image/Pasted image 20250110074629.png",
-    "计算机组成与设计/笔记/Chap4 Processor/4.3-4.4  Sigle-Circle.md",
     "Tools/Git",
     "Tools",
-    "题解/Problems/二叉树.zip",
-    "题解/Problems/二叉树.rar",
-    "数据结构实现/查找",
-    "数据结构题解/Problems/图",
-    "数据结构实现/图/最短路径",
     "画布示例.canvas"
   ]
 }
