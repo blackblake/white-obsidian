@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0215e6d02c2c4859",
+            "id": "a330a52974e3fe61",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "cs61b/Lab 1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新分頁"
+              "title": "Lab 1"
             }
           }
         ]
@@ -36,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "檔案瀏覽器"
@@ -89,10 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Acwing/快速排序.md"
+                "file": "cs61b/Lab 1.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "快速排序 的大綱"
+              "title": "Lab 1 的大綱"
             }
           },
           {
@@ -191,45 +199,47 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0215e6d02c2c4859",
+  "active": "a330a52974e3fe61",
   "lastOpenFiles": [
+    "Missing-Semester/Shell.md",
+    "cs61b/Lab 1.md",
+    "cs61b",
+    "README.md",
+    "RLbook-Claude/8.3~8.6.md",
+    "Missing-Semester",
+    "RLbook-Claude/8.1~8.2.md",
+    "RLbook-Claude",
+    "md.md",
+    "VS Code-configurations.md",
+    "acwing/基础算法/快排的边界条件.md",
+    "acwing/基础算法/快排.md",
+    "acwing/基础算法/归并排序.md",
+    "数据结构题解/Knowledge/经验.md",
+    "操作系统/Chap5.md",
+    "操作系统/Chap4.md",
     "OStep_hw/Chap4/solutions.md",
     "OStep_hw/Chap5/solution.md",
-    "操作系统/Chap5.md",
     "OStep_hw/Chap5",
     "OStep_hw/Chap4/process-run.py",
     "OStep_hw/Chap4",
     "OStep_hw",
     "Reinforcement Learning/Introduction.md",
     "Reinforcement Learning",
-    "Acwing/基础算法/归并排序.md",
-    "Acwing/基础算法/快排.md",
-    "Acwing/基础算法/快排的边界条件.md",
-    "Acwing/基础算法",
-    "操作系统/Chap4.md",
+    "acwing/基础算法",
     "Image/Pasted image 20250114162533.png",
     "Image/Pasted image 20250114160752.png",
     "操作系统/概述.canvas",
     "操作系统/Chap2  Introduction to Operating Systems.md",
     "数据结构题解/Knowledge/怎样写递归.md",
-    "Acwing",
+    "acwing",
     "数据结构题解/Knowledge/How to solve problems.md",
-    "README.md",
     "计算机组成与设计/笔记/Chap5 Memory/5.7 虚拟内存.md",
-    "操作系统",
     "计算机组成与设计/笔记/Chap5 Memory/5.3 Cache.md",
     "计算机组成与设计/笔记/Chap5 Memory/5.4 Cache性能分析与改进.md",
     "计算机组成与设计/笔记/Chap4 Processor/4.5  Pipeline.md",
     "计算机组成与设计/笔记/Chap4 Processor/4.6  Pipelined Datapath and Control.md",
     "计算机组成与设计/笔记/Chap4 Processor/4.7  Data Hazard.md",
     "计算机组成与设计/笔记/Chap4 Processor/4.8 Control Hazard.md",
-    "计算机组成与设计/题目/Chap2 Solutions.md",
-    "计算机组成与设计/题目/Chap3 Solutions.md",
-    "计算机组成与设计/题目/Chap5 Solutions.md",
-    "计算机组成与设计/题目/Chap4 Solutions.md",
-    "计算机组成与设计/笔记/Chap1 Intro.md",
-    "计算机组成与设计/笔记/Chap2  Instructions.md",
-    "计算机组成与设计/笔记/Chap3 Algorithm.md",
     "Image/Pasted image 20250110080141.png",
     "Image/Pasted image 20250110074556.png",
     "Image/Pasted image 20250110073539.png",
@@ -238,8 +248,6 @@
     "Image/Pasted image 20250110082750.png",
     "Image/Pasted image 20250110081545.png",
     "Image/Pasted image 20250110080601.png",
-    "Tools/Git",
-    "Tools",
     "画布示例.canvas"
   ]
 }
