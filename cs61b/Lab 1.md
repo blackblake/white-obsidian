@@ -35,7 +35,7 @@ git pull origin main
 1.  如果你已经在本地有文件，你可以添加并提交它们：
 
 ```bash
-git add .
+git add --all #添加所有更改
 git commit -m "初始化仓库"
 ```
 

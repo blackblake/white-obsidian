@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs61b/Lab 1.md",
+                "file": "cs61b/Lec2 Defining and Using Classes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab 1"
+              "title": "Lec2 Defining and Using Classes"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d484d3697044ed85",
@@ -201,8 +202,15 @@
   },
   "active": "a330a52974e3fe61",
   "lastOpenFiles": [
+    "Image/Pasted image 20250228160938.png",
+    "Pasted image 20250228160938.png",
+    "Missing-Semester/Vim.md",
+    "cs61b/Lec2 Defining and Using Classes.md",
+    "Missing-Semester/Shell Script.md",
     "Missing-Semester/Shell.md",
+    "FreeCodeCamp.md",
     "cs61b/Lab 1.md",
+    "cs61b/Project 0.md",
     "cs61b",
     "README.md",
     "RLbook-Claude/8.3~8.6.md",
@@ -234,12 +242,6 @@
     "acwing",
     "数据结构题解/Knowledge/How to solve problems.md",
     "计算机组成与设计/笔记/Chap5 Memory/5.7 虚拟内存.md",
-    "计算机组成与设计/笔记/Chap5 Memory/5.3 Cache.md",
-    "计算机组成与设计/笔记/Chap5 Memory/5.4 Cache性能分析与改进.md",
-    "计算机组成与设计/笔记/Chap4 Processor/4.5  Pipeline.md",
-    "计算机组成与设计/笔记/Chap4 Processor/4.6  Pipelined Datapath and Control.md",
-    "计算机组成与设计/笔记/Chap4 Processor/4.7  Data Hazard.md",
-    "计算机组成与设计/笔记/Chap4 Processor/4.8 Control Hazard.md",
     "Image/Pasted image 20250110080141.png",
     "Image/Pasted image 20250110074556.png",
     "Image/Pasted image 20250110073539.png",
@@ -247,7 +249,6 @@
     "Image/Pasted image 20250110082813.png",
     "Image/Pasted image 20250110082750.png",
     "Image/Pasted image 20250110081545.png",
-    "Image/Pasted image 20250110080601.png",
     "画布示例.canvas"
   ]
 }
