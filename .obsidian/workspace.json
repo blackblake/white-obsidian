@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a330a52974e3fe61",
+            "id": "dfc8210c199bc918",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs61b/Lec2 Defining and Using Classes.md",
+                "file": "cmu15213/datalab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lec2 Defining and Using Classes"
+              "title": "datalab"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "递归",
+                "query": "tag:#3：为了避免这种情况，我们将在每个测试文件的开头使用",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d484d3697044ed85",
@@ -95,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs61b/Lab 1.md",
+                "file": "acwing/datalab.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Lab 1 的大綱"
+              "title": "datalab 的大綱"
             }
           },
           {
@@ -178,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
+    "width": 261.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -200,21 +199,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a330a52974e3fe61",
+  "active": "dfc8210c199bc918",
   "lastOpenFiles": [
+    "missing-semester/数据整理.md",
+    "missing-semester/Shell.md",
+    "missing-semester/Vim.md",
+    "cmu15213/datalab.md",
+    "cmu15213",
+    "cs61b/Lab2 Debug, Junit, IntList.md",
+    "cs61b/Lec2 Defining and Using Classes.md",
+    "cs61b/Lec3 Testing.md",
+    "cs61b/Lab1.md",
+    "Image/Pasted image 20250228213646.png",
+    "Image/Pasted image 20250228213258.png",
+    "Image/Pasted image 20250228190249.png",
+    "Pasted image 20250228190124.png",
+    "Image/Pasted image 20250228162521.png",
     "Image/Pasted image 20250228160938.png",
     "Pasted image 20250228160938.png",
-    "Missing-Semester/Vim.md",
-    "cs61b/Lec2 Defining and Using Classes.md",
-    "Missing-Semester/Shell Script.md",
-    "Missing-Semester/Shell.md",
+    "missing-semester/Shell Script.md",
     "FreeCodeCamp.md",
-    "cs61b/Lab 1.md",
     "cs61b/Project 0.md",
     "cs61b",
     "README.md",
     "RLbook-Claude/8.3~8.6.md",
-    "Missing-Semester",
+    "missing-semester",
     "RLbook-Claude/8.1~8.2.md",
     "RLbook-Claude",
     "md.md",
@@ -238,17 +247,7 @@
     "Image/Pasted image 20250114160752.png",
     "操作系统/概述.canvas",
     "操作系统/Chap2  Introduction to Operating Systems.md",
-    "数据结构题解/Knowledge/怎样写递归.md",
-    "acwing",
-    "数据结构题解/Knowledge/How to solve problems.md",
-    "计算机组成与设计/笔记/Chap5 Memory/5.7 虚拟内存.md",
     "Image/Pasted image 20250110080141.png",
-    "Image/Pasted image 20250110074556.png",
-    "Image/Pasted image 20250110073539.png",
-    "Image/Pasted image 20250110072638.png",
-    "Image/Pasted image 20250110082813.png",
-    "Image/Pasted image 20250110082750.png",
-    "Image/Pasted image 20250110081545.png",
     "画布示例.canvas"
   ]
 }

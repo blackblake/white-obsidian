@@ -42,9 +42,7 @@ git commit -m "初始化仓库"
 1.  最后，将本地内容推送到 GitHub：
 
 ```bash
-git remote set-url origin git@github.com:blackblake/cs61b.git
+git push -u origin master
 ```
-
-（同样，如果主分支是 `master`，请使用 `git push -u origin master`）
 
 这样就完成了本地目录与 GitHub 仓库的连接。执行 `git status` 应该能够看到正常的状态信息了。
