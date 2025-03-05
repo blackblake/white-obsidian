@@ -1,0 +1,253 @@
+{
+  "main": {
+    "id": "c6b06ef70b79605e",
+    "type": "split",
+    "children": [
+      {
+        "id": "ded8fa8889292584",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dfc8210c199bc918",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Acwing/基础算法/799 最长不重复子序列（滑动窗口）.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "799 最长不重复子序列（滑动窗口）"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ab0dd081e0671f36",
+    "type": "split",
+    "children": [
+      {
+        "id": "c87d4d059a51ae37",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9bd10e3fd40eca3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "08ac95d415b04ee5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#3：为了避免这种情况，我们将在每个测试文件的开头使用",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜尋"
+            }
+          },
+          {
+            "id": "98cb755a007c05b2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "書籤"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "d484d3697044ed85",
+    "type": "split",
+    "children": [
+      {
+        "id": "4511c204e1ff3a11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4787b570142bc0e5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "acwing/datalab.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "datalab 的大綱"
+            }
+          },
+          {
+            "id": "69e6a790e401b2ae",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Computer Organization/Note/Chap5 Memory/5.3 The Basics of Cache.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "5.3 The Basics of Cache 的對外連結"
+            }
+          },
+          {
+            "id": "1d51d499f66e4372",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Computer Organization/Note/Chap5 Memory/5.3 The Basics of Cache.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "5.3 The Basics of Cache 的反向連結"
+            }
+          },
+          {
+            "id": "60d20fce3c43985e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "所有屬性"
+            }
+          },
+          {
+            "id": "0b7aa6b76b01ae74",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "40452b4b2b188819",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "標籤"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 261.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "publish:Publish changes...": false,
+      "media-extended:Open media": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
+    }
+  },
+  "active": "dfc8210c199bc918",
+  "lastOpenFiles": [
+    "cs61b/Lab2 Debug, Junit, IntList.md",
+    "Acwing/基础算法/799 最长不重复子序列（滑动窗口）.md",
+    "Image/4aba8780ca7ae59076ed62f2e9afcd9.png",
+    "Missing-Semester/数据整理.md",
+    "Missing-Semester/Shell.md",
+    "cmu15213/datalab.md",
+    "missing-semester/数据整理.md",
+    "missing-semester/Shell.md",
+    "missing-semester/Vim.md",
+    "cmu15213",
+    "cs61b/Lec2 Defining and Using Classes.md",
+    "cs61b/Lec3 Testing.md",
+    "cs61b/Lab1.md",
+    "Image/Pasted image 20250228213646.png",
+    "Image/Pasted image 20250228213258.png",
+    "Image/Pasted image 20250228190249.png",
+    "Pasted image 20250228190124.png",
+    "Image/Pasted image 20250228162521.png",
+    "Image/Pasted image 20250228160938.png",
+    "Pasted image 20250228160938.png",
+    "missing-semester/Shell Script.md",
+    "FreeCodeCamp.md",
+    "cs61b/Project 0.md",
+    "cs61b",
+    "README.md",
+    "RLbook-Claude/8.3~8.6.md",
+    "missing-semester",
+    "RLbook-Claude/8.1~8.2.md",
+    "RLbook-Claude",
+    "md.md",
+    "VS Code-configurations.md",
+    "acwing/基础算法/快排的边界条件.md",
+    "acwing/基础算法/快排.md",
+    "acwing/基础算法/归并排序.md",
+    "数据结构题解/Knowledge/经验.md",
+    "操作系统/Chap5.md",
+    "操作系统/Chap4.md",
+    "OStep_hw/Chap4/solutions.md",
+    "OStep_hw/Chap5",
+    "OStep_hw/Chap4/process-run.py",
+    "OStep_hw/Chap4",
+    "OStep_hw",
+    "Reinforcement Learning",
+    "acwing/基础算法",
+    "Image/Pasted image 20250114162533.png",
+    "Image/Pasted image 20250114160752.png",
+    "操作系统/概述.canvas",
+    "画布示例.canvas"
+  ]
+}
