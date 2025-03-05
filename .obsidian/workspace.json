@@ -13,12 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Acwing/基础算法/799 最长不重复子序列（滑动窗口）.md",
+=======
+                "file": "cmu15213/datalab.md",
+>>>>>>> e7742e2085b90db102687ee3864c3a7ee4a4db7d
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "799 最长不重复子序列（滑动窗口）"
+=======
+              "title": "datalab"
+>>>>>>> e7742e2085b90db102687ee3864c3a7ee4a4db7d
             }
           }
         ]
@@ -44,7 +52,11 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
+<<<<<<< HEAD
               "title": "Files"
+=======
+              "title": "檔案瀏覽器"
+>>>>>>> e7742e2085b90db102687ee3864c3a7ee4a4db7d
             }
           },
           {
@@ -156,8 +168,13 @@
             "state": {
               "type": "git-view",
               "state": {},
+<<<<<<< HEAD
               "icon": "lucide-file",
               "title": "Plugin no longer active"
+=======
+              "icon": "git-pull-request",
+              "title": "Source Control"
+>>>>>>> e7742e2085b90db102687ee3864c3a7ee4a4db7d
             }
           },
           {
@@ -182,6 +199,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+<<<<<<< HEAD
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -197,10 +215,28 @@
       "media-extended:Open media": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
+=======
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "markdown-importer:開啟 Markdown 格式轉換器": false,
+      "zk-prefixer:建立新唯一筆記": false,
+      "random-note:開始漫遊筆記": false,
+      "audio-recorder:開始/停止錄音": false,
+      "workspaces:管理工作區配置": false,
+      "publish:發佈變動內容": false,
+      "media-extended:Open media": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+      "obsidian-git:Open Git source control": false
+>>>>>>> e7742e2085b90db102687ee3864c3a7ee4a4db7d
     }
   },
   "active": "dfc8210c199bc918",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "cs61b/Lab2 Debug, Junit, IntList.md",
     "Acwing/基础算法/799 最长不重复子序列（滑动窗口）.md",
     "Image/4aba8780ca7ae59076ed62f2e9afcd9.png",
@@ -211,6 +247,14 @@
     "missing-semester/Shell.md",
     "missing-semester/Vim.md",
     "cmu15213",
+=======
+    "missing-semester/数据整理.md",
+    "missing-semester/Shell.md",
+    "missing-semester/Vim.md",
+    "cmu15213/datalab.md",
+    "cmu15213",
+    "cs61b/Lab2 Debug, Junit, IntList.md",
+>>>>>>> e7742e2085b90db102687ee3864c3a7ee4a4db7d
     "cs61b/Lec2 Defining and Using Classes.md",
     "cs61b/Lec3 Testing.md",
     "cs61b/Lab1.md",
@@ -239,15 +283,28 @@
     "操作系统/Chap5.md",
     "操作系统/Chap4.md",
     "OStep_hw/Chap4/solutions.md",
+<<<<<<< HEAD
+=======
+    "OStep_hw/Chap5/solution.md",
+>>>>>>> e7742e2085b90db102687ee3864c3a7ee4a4db7d
     "OStep_hw/Chap5",
     "OStep_hw/Chap4/process-run.py",
     "OStep_hw/Chap4",
     "OStep_hw",
+<<<<<<< HEAD
+=======
+    "Reinforcement Learning/Introduction.md",
+>>>>>>> e7742e2085b90db102687ee3864c3a7ee4a4db7d
     "Reinforcement Learning",
     "acwing/基础算法",
     "Image/Pasted image 20250114162533.png",
     "Image/Pasted image 20250114160752.png",
     "操作系统/概述.canvas",
+<<<<<<< HEAD
+=======
+    "操作系统/Chap2  Introduction to Operating Systems.md",
+    "Image/Pasted image 20250110080141.png",
+>>>>>>> e7742e2085b90db102687ee3864c3a7ee4a4db7d
     "画布示例.canvas"
   ]
 }
