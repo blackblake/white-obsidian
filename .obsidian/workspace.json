@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "68f63613c6157b32",
+        "id": "5c7ca370fe184f76",
         "type": "tabs",
         "children": [
           {
-            "id": "b421d957ee3ca7b3",
+            "id": "b69f3a0b53accf62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs61b/Lab3 TimingTest.md",
+                "file": "Acwing/基础算法/803. 区间合并.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab3 TimingTest"
+              "title": "803. 区间合并"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.5
+    "width": 263.5,
+    "collapsed": true
   },
   "right": {
     "id": "8e9eebf5fb9e6c4c",
@@ -192,8 +193,17 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "b421d957ee3ca7b3",
+  "active": "b69f3a0b53accf62",
   "lastOpenFiles": [
+    "Acwing/基础算法/785. 快排的边界条件.md",
+    "Acwing/基础算法/785. 快排.md",
+    "Acwing/基础算法/787. 归并排序.md",
+    "Acwing/基础算法/803. 区间合并.md",
+    "Acwing/基础算法/802. 区间和.md",
+    "Image/Pasted image 20250306215807.png",
+    "Image/Pasted image 20250306215747.png",
+    "CSAPP/第二章.md",
+    "CSAPP",
     "cs61b/Lec.md",
     "cs61b/Lab3 TimingTest.md",
     "Image/截屏2025-03-06 14.36.46.png",
