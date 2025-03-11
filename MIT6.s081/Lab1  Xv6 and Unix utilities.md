@@ -89,3 +89,325 @@ if(pid>0){//parent process
 ```c
 else { printf("fork error\n"); exit(1); }
 ```
+
+
+## primes.c
+---
+1. **在write语句的下一行必须紧接着close写端**
+```c
+write(p[1],buf,34);
+close(p[1]);//close写端应该紧跟在write后面！
+wait(0);
+```
+
+2. **read之后，要怎么存储read到的数据？**
+```c
+int prime;
+read(p[0], &prime, 4);
+```
+
+其中:
+- `&prime` 是目标缓冲区的地址。这里 `prime` 是一个整型变量，前面加 `&` 表示取这个变量的内存地址。`read()` 函数会将读取的数据存储到这个地址指向的内存空间中。
+- 一个 `int` 类型占用 4 个字节，这里 **==4代表只读取一个整数==** 的字节数。
+
+后面：
+```c
+if(read(p[0], &n, 4)){
+	...;//如果后续还有数字...
+}
+```
+我们发现这里的缓冲区使用了一个新的int变量n而不是原来的prime，这是因为后面我们要用prime来循环处理剩余的数字，过滤掉能被prime整除的数字。
+
+
+3. **怎么做到“递归创建管道和子进程”？**
+方法是用一个`new_proc`函数，当`if(pid==0)`时调用它，在它内部`if(read(p[0], &n, 4))`（也就是当还有数字可读）时递归调用它自身。
+
+4. **怎么检测管道中还有可以读取的字节？**
+```c
+if(read(p[0], &n, 4)>0)...//如果读取到的字节数>0
+```
+
+5. **注意read/write的字节数是多少**
+```c
+write(p[1], buf, 34 * sizeof(int));
+```
+一开始这里我写的是34，但是这个参数的含义是“字节数”，所以还要乘以`sizeof(int)`。
+
+
+## find.c
+---
+##### 1）`ls.c`中，读取目录directory信息的代码
+
+```c
+void read_directory(char *path) {
+    int fd;
+    struct dirent de;//用于存储目录条目(directory entries)的结构体
+    struct stat st;//用于存储目录信息(status)的结构体
+    char buf[512], *p;//缓冲区
+    
+    // 打开目录
+    if((fd = open(path, 0)) < 0){
+        fprintf(2, "cannot open %s\n", path);//打开失败则输出报错
+        return;
+    }
+    
+    // 获取目录状态
+    if(fstat(fd, &st) < 0){//从目录(用文件描述符fd表示)中读取目录的状态，存储到st结构体中
+        fprintf(2, "cannot stat %s\n", path);//获取失败则报错
+        close(fd);
+        return;
+    }
+    
+    // 确认是目录类型
+    if(st.type != T_DIR) {
+        fprintf(2, "%s is not a directory\n", path);//不是目录类型则报错
+        close(fd);
+        return;
+    }
+    
+    // 准备路径缓冲区p
+    strcpy(buf, path);
+    p = buf + strlen(buf);//将指针 `p` 定位到字符串 `buf` 的末尾
+    *p++ = '/';
+    
+    // 读取目录中的所有条目
+    while(read(fd, &de, sizeof(de)) == sizeof(de)){
+        // 跳过无效条目
+        if(de.inum == 0)//inum等于0表示该条目没有被使用，也就是没记录任何文件的信息
+            continue;
+        
+        // 构建完整路径
+        memmove(p, de.name, DIRSIZ);//将目录条目de中的文件名`de.name`复制到缓冲区`p`，长度为`DIRSIZ`。
+        p[DIRSIZ] = 0;  // 添加字符串结束符
+        
+        // 处理当前条目
+        if(stat(buf, &st) < 0){
+            printf("cannot stat %s\n", buf);
+            continue;
+        }
+        
+        printf("%s\n", buf);
+    }
+    
+    // 关闭目录
+    close(fd);
+}
+```
+
+- 路径缓冲区`buf`的作用：组装文件的路径和文件名，比如在`/home/user`路径下发现了文件`document.txt`，则借助`buf`构建出`/home/user/document.txt`这个完整路径
+
+- `inode`：用于存储文件元数据的数据结构，包含：文件类型（普通文件、目录、链接等）、文件大小、时间戳（创建时间、修改时间等）、指向实际数据块的指针等
+
+- `dirent`和`stat`：定义在头文件<dirent.h>和<sys/stat.h>中
+
+- `inum`：目录条目(`de`)中的信息之一，表示"inode number"，是标识文件的唯一数字ID
+	inode号为0通常表示未使用的目录条目
+	多个目录条目可以指向同一个inode号（硬链接）
+
+##### 2）`find.c`相比于`ls.c`修改的地方
+
+###### 第1处：跳过目录条目的条件
+```c
+//if的条件增加了后面这两个
+if(de.inum == 0 || strcmp(de.name, ".") == 0 || strcmp(de.name, "..") == 0)
+	continue;//跳过满足if条件的表项
+```
+	
+- `strcmp(de.name, ".") == 0` - 检查目录项的名称是否为"."。在Unix/Linux文件系统中，"."表示当前目录。在递归搜索时，我们通常想跳过当前目录以避免无限循环。
+- `strcmp(de.name, "..") == 0` - 检查目录项的名称是否为".."。在Unix/Linux文件系统中，".."表示父目录。同样，在递归搜索时跳过父目录可以避免循环和重复搜索。
+	
+```shell
+假设我们有一个名为documents的目录，其中有两个文件report.txt和notes.pdf，以及一个子目录projects。
+如果我们用ls -la documents命令查看该目录，可能会看到类似这样的输出：
+
+Copydrwxr-xr-x  4 user  group   128 Mar 10 15:30 .
+drwxr-xr-x 18 user  group   576 Mar 09 10:15 ..
+-rw-r--r--  1 user  group  2048 Mar 10 14:20 report.txt
+-rw-r--r--  1 user  group  4096 Mar 08 09:45 notes.pdf
+drwxr-xr-x  3 user  group   128 Mar 07 16:30 projects
+
+其中"."和".."分别是当前目录和父目录
+```
+
+###### 第2处：便利目录条目时，对每一个目录条目的处理
+	
+```c
+if(st.type==T_DIR){//如果当前的条目也是一个目录，那对这个字目录也find一下有没有目标文件
+    find_helper(buf,target);
+}else if(st.type==T_FILE){//如果当前的条目是一个数据文件，就比较一下文件名是不是目标文件
+    if(strcmp(de.name,target)==0){
+        printf("%s\n",buf);
+    }
+}
+```
+
+
+##### 3）目录文件和数据文件
+	
+在文件系统中，目录(directory)和数据文件(.txt等)本质上都是以文件描述符来表示的。
+	
+在现代操作系统中，目录实际上是一种特殊类型的文件，它包含了指向其他文件或目录的引用信息。系统通过这些文件描述符来管理和组织文件系统层次结构。
+	
+主要区别在于：
+	
+1. 目录文件存储的是其包含的文件和子目录的名称以及对应的索引节点(inode)信息
+2. 普通数据文件(如.txt文件)存储的是实际的内容数据
+	
+操作系统通过不同的权限和属性来区分它们，但在底层实现上，它们都是通过文件描述符进行管理的，都可以被打开、读取和关闭，只是处理方式不同，所以`find.c`中可以用`int fd = open(path, 0))`来获取输入的这个路径path(如`/a/b`)的文件描述符。
+
+
+##### 4）`dirent`, `stat`结构体
+###### dirent 结构体
+	
+`dirent`（directory entry）结构体用于表示目录中的条目，由`readdir()`函数获取，它提供了目录中文件的基本信息：
+	
+```c
+struct dirent {
+    ino_t          d_ino;       // 文件的inode号
+    off_t          d_off;       // 在目录文件中的偏移量
+    unsigned short d_reclen;    // 此记录的长度
+    unsigned char  d_type;      // 文件类型 (并非所有文件系统都支持)
+    char           d_name[];    // 文件名
+};
+```
+
+###### stat 结构体
+	
+`stat`结构体则包含了文件的详细元数据信息，通常通过`stat()`、`fstat()`或`lstat()`函数获取：
+	
+```c
+struct stat {
+    dev_t     st_dev;         // 设备ID
+    ino_t     st_ino;         // inode号
+    nlink_t   st_nlink;       // 硬链接数
+    ...
+};
+```
+
+**区别：** 
+- `dirent`主要用于目录遍历，获取目录内容列表(但记住每一个dirent只是目录中的**一个条目**)，如
+```c
+// 读取目录中的所有条目
+while(read(fd, &de, sizeof(de)) == sizeof(de)){
+	if(de.inum == 0){continue;}//记得跳过无效条目
+	...
+}
+```
+- `stat`用于获取单个文件的详细元数据（但也可用于获取目录的信息，因为目录本质上也是一种特殊类型的文件，如上文中的
+```c
+if(fstat(fd, &st) < 0)）
+```
+
+
+**联系：**
+	在实际编程中，这两个结构体经常一起使用 - 先用`dirent`遍历目录获取文件名，然后对感兴趣的文件使用`stat`获取详细信息。
+
+
+## xargs.c
+---
+这个程序实现了一个简化版的 UNIX `xargs` 工具。
+#### readline 函数
+
+```c
+int readline(char *new_argv[32], int curr_argc) {
+    static char buf[1024];
+    int n = 0;
+    
+    // 从标准输入逐字符读取一行
+    while(read(0, buf+n, 1)) {
+        if (n == 1023) {//如果输入的命令超过了1023个字符
+            fprintf(2, "argument is too long\n");
+            exit(1);
+        }
+        if (buf[n] == '\n') {//遇到换行符,即已至行尾,停止读取
+            break;
+        }
+        n++;
+    }
+    
+    buf[n] = 0;  // 将读取的字符串以null终止
+    if (n == 0) return 0;  // 如果没有读取到任何字符，返回0
+    
+    int offset = 0;
+    // 解析读取的行，按空格分割为参数
+    while(offset < n) {
+        // 将当前参数指针存入new_argv数组
+        new_argv[curr_argc++] = buf + offset;
+        
+        // 跳过非空格字符
+        while(buf[offset] != ' ' && offset < n) {
+            offset++;
+        }
+        
+        // 将空格替换为null字符，并跳过连续空格
+        while(buf[offset] == ' ' && offset < n) {
+            buf[offset++] = 0;
+        }
+    }
+    
+    return curr_argc;  // 返回参数总数
+}
+```
+
+- 这个函数从标准输入读取一行文本，然后将其分割为多个参数（以空格为分隔符），并将这些参数添加到`new_argv`数组中。
+- 使用`static char buf[1024]`的==**static**==意味着缓冲区在函数调用之间保持不变，这允许后续解析不会覆盖之前的数据。
+
+ **==后半部分的三个嵌套的while(一个大while里有两个小while)**==：
+	假设buf中包含字符串 "hello world example"（n = 19）：
+1. 第一次循环开始：offset = 0
+    - new_argv\[curr_argc++] = buf + 0; （指向"hello world example"的开头）
+    - 内部循环1：offset前进到5（跳过"hello"）
+    - 内部循环2：将位置5的空格替换为'\0'，offset变为6
+2. 第二次循环开始：offset = 6
+    - new_argv\[curr_argc++] = buf + 6; （指向"world example"的开头）
+    - 内部循环1：offset前进到11（跳过"world"）
+    - 内部循环2：将位置11的空格替换为'\0'，offset变为12
+3. 第三次循环开始：offset = 12
+    - new_argv\[curr_argc++] = buf + 12; （指向"example"的开头）
+    - 内部循环1：offset前进到19（跳过"example"）
+    - 内部循环2：不执行（没有更多空格）
+
+循环结束，**new_argv数组现在包含三个参数的指针，分别指向buf中的"hello"、"world"和"example"三个null终止的字符串**。
+
+
+#### main 函数
+
+```c
+int main(int argc, char const *argv[]) {
+    if (argc <= 1) {//如果输入的命令行参数太少
+        fprintf(2, "Usage: xargs command (arg ...)\n");
+        exit(1);
+    }
+    
+    // 为命令名分配内存并复制，目的是创建命令名的一个独立副本，这样程序就可以在不修改原始 `argv` 数组的情况下操作命令名。
+    char *command = malloc(strlen(argv[1]) + 1);//malloc为存储命令名称分配内存，并将返回的指针赋值给 `command` 变量，+1是为了多分配一个空间来存储结束符\0
+    strcpy(command, argv[1]);//将命令名从 `argv[1]` 复制到新分配的内存中
+
+	char *new_argv[MAXARG];
+    // 复制原始命令行参数(之所以不和前面那两行分开写，是因为argv[1]是命令名，如echo；而后面的argv[i]是命令行参数，如-n）
+    for (int i = 1; i < argc; ++i) {
+        new_argv[i - 1] = malloc(strlen(argv[i]) + 1);
+        strcpy(new_argv[i - 1], argv[i]);
+    }
+    
+    int curr_argc;
+    
+    // 持续读取标准输入的每一行
+    /*readline函数返回该行读取到的命令行参数的个数，如果为0，
+     则表示没有读取到任何参数（可能是到达了文件末尾EOF），循环结束*/
+    while((curr_argc = readline(new_argv, argc - 1)) != 0) {
+        new_argv[curr_argc] = 0;  // 参数数组以NULL结尾
+        
+        // 创建子进程执行命令
+        if(fork() == 0) {
+            exec(command, new_argv);//command是之前创建的命令名的副本、new_argv是之前创建的命令行参数的副本
+            fprintf(2, "exec failed\n");//这两行代码只有在 `exec` 调用失败时才会执行
+            //因为在正常情况下，`exec`会替代当前进程，exec成功后代码就不会继续执行
+            exit(1);
+        }
+        wait(0);  // 等待子进程完成
+    }
+    
+    exit(0);
+}
+```
