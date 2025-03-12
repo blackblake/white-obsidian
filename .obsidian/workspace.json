@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MIT6.s081/Lab1  Xv6 and Unix utilities.md",
+                "file": "RLbook-Claude/function approximation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab1  Xv6 and Unix utilities"
+              "title": "function approximation"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5,
-    "collapsed": true
+    "width": 203.5
   },
   "right": {
     "id": "8e9eebf5fb9e6c4c",
@@ -157,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MIT6.s081/Lab1  Xv6 and Unix utilities.md",
+                "file": "RLbook-Claude/function approximation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lab1  Xv6 and Unix utilities"
+              "title": "Outline of function approximation"
             }
           }
         ],
@@ -195,8 +194,11 @@
   },
   "active": "4094ad4eebec3141",
   "lastOpenFiles": [
-    "MIT6.s081/Setup.md",
+    "RLbook-Claude/8.3~8.6.md",
+    "RLbook-Claude/function approximation.md",
+    "RLbook-Claude/8.1~8.2.md",
     "MIT6.s081/Lab1  Xv6 and Unix utilities.md",
+    "MIT6.s081/Setup.md",
     "算法设计与分析/第1章：算法分析基本概念.md",
     "MIT6.s081",
     "算法设计与分析/第2章：分治递推式.md",
