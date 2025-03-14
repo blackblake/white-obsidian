@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RLbook-Claude/function approximation.md",
+                "file": "MIT6.s081/Lab2 System Calls.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "function approximation"
+              "title": "Lab2 System Calls"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.5
+    "width": 203.5,
+    "collapsed": true
   },
   "right": {
     "id": "8e9eebf5fb9e6c4c",
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RLbook-Claude/function approximation.md",
+                "file": "MIT6.s081/Lab2 System Calls.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of function approximation"
+              "title": "Outline of Lab2 System Calls"
             }
           }
         ],
@@ -170,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5,
-    "collapsed": true
+    "width": 222.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,14 +194,23 @@
   },
   "active": "4094ad4eebec3141",
   "lastOpenFiles": [
-    "RLbook-Claude/8.3~8.6.md",
-    "RLbook-Claude/function approximation.md",
-    "RLbook-Claude/8.1~8.2.md",
+    "截屏2025-03-14 15.08.48.png",
     "MIT6.s081/Lab1  Xv6 and Unix utilities.md",
+    "MIT6.s081/Lab2 System Calls.md",
     "MIT6.s081/Setup.md",
-    "算法设计与分析/第1章：算法分析基本概念.md",
-    "MIT6.s081",
+    "Acwing/基础算法/801. 二进制中1的个数.md",
+    "Acwing/基础算法/799. 最长不重复子序列（滑动窗口）.md",
+    "Acwing/基础算法/787. 归并排序.md",
+    "Acwing/基础算法/785. 快排.md",
     "算法设计与分析/第2章：分治递推式.md",
+    "算法设计与分析/第1章：算法分析基本概念.md",
+    "RLbook-Claude/function approximation.md",
+    "Acwing/基础算法/785. 快排的边界条件.md",
+    "whu_os/第1章 导论.md",
+    "whu_os",
+    "RLbook-Claude/8.3~8.6.md",
+    "RLbook-Claude/8.1~8.2.md",
+    "MIT6.s081",
     "Image/截屏2025-03-09 22.49.51.png",
     "Image/截屏2025-03-09 22.39.58.png",
     "Image/Pasted image 20250309223634.png",
@@ -218,19 +227,12 @@
     "VS Code-configurations.md",
     "cs61b/Proj0.md",
     "Acwing/基础算法/803. 区间合并.md",
-    "Acwing/基础算法/785. 快排的边界条件.md",
-    "Acwing/基础算法/785. 快排.md",
-    "Acwing/基础算法/787. 归并排序.md",
     "Acwing/基础算法/802. 区间和.md",
     "Image/Pasted image 20250306215807.png",
     "Image/Pasted image 20250306215747.png",
     "CSAPP/第二章.md",
     "CSAPP",
     "cs61b/Lec.md",
-    "cs61b/Lab3 TimingTest.md",
-    "cs61b/Lec3 Testing.md",
-    "Acwing/基础算法/799. 最长不重复子序列（滑动窗口）.md",
-    "Acwing/基础算法/801. 二进制中1的个数.md",
-    "Acwing/基础算法/800. 数组元素的目标和.md"
+    "cs61b/Lab3 TimingTest.md"
   ]
 }
