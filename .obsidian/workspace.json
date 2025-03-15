@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MIT6.s081/Lab2 System Calls.md",
+                "file": "算法设计与分析/第3章 分治.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab2 System Calls"
+              "title": "第3章 分治"
             }
           }
         ]
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MIT6.s081/Lab2 System Calls.md",
+                "file": "算法设计与分析/第3章 分治.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lab2 System Calls"
+              "title": "Outline of 第3章 分治"
             }
           }
         ],
@@ -171,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 222.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,9 +195,12 @@
   },
   "active": "4094ad4eebec3141",
   "lastOpenFiles": [
-    "截屏2025-03-14 15.08.48.png",
-    "MIT6.s081/Lab1  Xv6 and Unix utilities.md",
+    "截屏2025-03-15 16.47.20.png",
+    "Image/截屏2025-03-15 16.40.07.png",
     "MIT6.s081/Lab2 System Calls.md",
+    "算法设计与分析/第3章 分治.md",
+    "Image/截屏2025-03-14 15.08.48.png",
+    "MIT6.s081/Lab1  Xv6 and Unix utilities.md",
     "MIT6.s081/Setup.md",
     "Acwing/基础算法/801. 二进制中1的个数.md",
     "Acwing/基础算法/799. 最长不重复子序列（滑动窗口）.md",
@@ -228,11 +232,8 @@
     "cs61b/Proj0.md",
     "Acwing/基础算法/803. 区间合并.md",
     "Acwing/基础算法/802. 区间和.md",
-    "Image/Pasted image 20250306215807.png",
-    "Image/Pasted image 20250306215747.png",
     "CSAPP/第二章.md",
     "CSAPP",
-    "cs61b/Lec.md",
-    "cs61b/Lab3 TimingTest.md"
+    "cs61b/Lec.md"
   ]
 }
