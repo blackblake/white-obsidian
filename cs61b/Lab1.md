@@ -24,7 +24,9 @@ git init
 git remote add origin https://github.com/blackblake/cs61b.git
 ```
 
-1.  拉取远程仓库的内容（如果远程仓库已经有内容）：
+用`git remove -v`确认远程仓库已正确添加
+
+2.  拉取远程仓库的内容（如果远程仓库已经有内容）：
 
 ```bash
 git pull origin main
@@ -32,14 +34,14 @@ git pull origin main
 
 （注意：如果你的主分支是 `master` 而不是 `main`，请使用 `git pull origin master`）
 
-1.  如果你已经在本地有文件，你可以添加并提交它们：
+3.  如果你已经在本地有文件，你可以添加并提交它们：
 
 ```bash
 git add --all #添加所有更改
 git commit -m "初始化仓库"
 ```
 
-1.  最后，将本地内容推送到 GitHub：
+4.  最后，将本地内容推送到 GitHub：
 
 ```bash
 git push -u origin master

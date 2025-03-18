@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Acwing/动态规划/897. 最长公共子序列.md",
+                "file": "Core Java/Chap3  Basic Structure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "897. 最长公共子序列"
+              "title": "Chap3  Basic Structure"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MIT6.s081/note/Lec4 Page Table.md",
+                "file": "Core Java/Chap3  Basic Structure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lec4 Page Table"
+              "title": "Outline of Chap3  Basic Structure"
             }
           }
         ],
@@ -194,50 +194,51 @@
   },
   "active": "5d31ae6ff1bc0e8d",
   "lastOpenFiles": [
+    "cs61b/Lec3 Testing.md",
+    "cs61b/Lab3 TimingTest.md",
+    "cs61b/Lec2 Defining and Using Classes.md",
+    "cs61b/Lab2 Debug, Junit, IntList.md",
+    "cs61b/Lab1.md",
+    "Java Web/Content.md",
+    "MIT6.s081/lab/Lab1  Xv6 and Unix utilities.md",
+    "MIT6.s081/lab/Lab2 System Calls.md",
+    "MIT6.s081/lab/Lab4 Traps.md",
+    "MIT6.s081/lab/Lab3 Page Table.md",
+    "Core Java/Chap3  Basic Structure.md",
+    "Java Web",
+    "Image/截屏2025-03-18 17.04.31.png",
+    "Image/截屏2025-03-18 16.16.11.png",
+    "Image/截屏2025-03-18 16.11.24.png",
+    "Core Java",
+    "Algorithm Design and Analysis/第1章 基本概念.md",
+    "Algorithm Design and Analysis/第3章 分治.md",
+    "Acwing/动态规划/897. 最长公共子序列.md",
     "Acwing/动态规划/895. 最长上升子序列.md",
     "Acwing/动态规划/2. 0-1背包问题.md",
-    "MIT6.s081/lab/Lab4 Traps.md",
     "Image/截屏2025-03-17 15.41.38.png",
-    "MIT6.s081/lab/Lab3 Page Table.md",
     "MIT6.s081/note/Lec4 Page Table.md",
     "Image/Pasted image 20250317143335.png",
-    "MIT6.s081/lab/Lab2 System Calls.md",
     "MIT6.s081/lab/Setup.md",
     "MIT6.s081/lab",
-    "MIT6.s081/lab/Lab1  Xv6 and Unix utilities.md",
     "Image/截屏2025-03-17 08.42.48.png",
     "cmu15213/Chap 2.md",
     "MIT6.s081/note",
     "cmu15213/datalab.md",
-    "Acwing/动态规划/897. 最长公共子序列.md",
     "Algorithm Design and Analysis/第4章 动态规划.md",
     "Acwing/动态规划",
-    "Algorithm Design and Analysis/第3章 分治.md",
-    "Algorithm Design and Analysis/第1章 基本概念.md",
     "Acwing/基础算法/787. 归并排序.md",
     "Acwing/基础算法/785. 快排.md",
     "Visual Studio Code.md",
     "Data Structure/Problems/队列/POJ2259 团队队列.md",
     "算法作业5.8.md",
-    "Data Structure/Problems/队列/HDU 4939 扔钉子.md",
-    "Data Structure/Knowledge/经验.md",
-    "Data Structure/Knowledge/判断输入类型.md",
-    "Data Structure/Problems/队列/ExamTest1 移动偶数位.md",
-    "Data Structure/Problems/线性表/hw2 顺序表元素划分.md",
-    "Data Structure/Problems/线性表/hw2 约瑟夫环.md",
     "Data Structure/Problems/队列",
     "Data Structure/Problems/线性表",
     "Data Structure/Problems/栈",
     "Data Structure/Problems/字符串",
     "Data Structure/Problems/图",
-    "Data Structure/Problems/其他",
-    "Data Structure/Problems/二叉树",
     "Image/截屏2025-03-15 16.47.20.png",
     "Image/截屏2025-03-15 16.40.07.png",
     "Image/截屏2025-03-14 15.08.48.png",
-    "Image/截屏2025-03-09 22.49.51.png",
-    "Image/截屏2025-03-09 22.39.58.png",
-    "Image/Pasted image 20250309223634.png",
-    "Image/截屏2025-03-09 16.35.59.png"
+    "Image/截屏2025-03-09 22.49.51.png"
   ]
 }
